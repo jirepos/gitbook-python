@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [Python 정리](README.md)
 * [Exe 파일 만들기](make-python-exe.md)
 * [pip를 이용하여 github에서 패키지 설치하기](pip-github.md)
 * [Python 개발환경 가이드](python-environment.md)
