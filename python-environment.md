@@ -18,7 +18,7 @@ PowerShell 창에서 conda를 사용하려면 Windows 시작 메뉴에서 Anacon
 
 conda 버전 확인한다.
 
-![](<.gitbook/assets/image (8).png>)
+![](<.gitbook/assets/image (8) (1).png>)
 
 ## Anaconda에서 Python 설치
 
@@ -45,7 +45,7 @@ VSCode를 실행하여 Python extenstion을 설치한다.
 \
 Terminal을 연다. 아래와 같은 경고 창이 뜨면 무시한다.
 
-![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/image (9) (1).png>)
 
 PowerShell이 base 환경으로 기본적으로 설정되는 것을 볼 수 있다.
 
@@ -353,7 +353,7 @@ print("hello Python")
 
 F5를 클릭하여 DEBUG MODE로 실행한다.
 
-![](<.gitbook/assets/image (10).png>)
+![](<.gitbook/assets/image (10) (1).png>)
 
 Break Point가 설정된 곳에서 실행이 멈춘 것을 확인할 수 있다.
 
