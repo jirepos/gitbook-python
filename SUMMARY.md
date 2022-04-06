@@ -13,3 +13,5 @@
 * [파이썬에서 한글](python-encoding.md)
 * [Java에서 Python 사용하기](java-python.md)
 * [Google Colab](google-colab.md)
+* [Python Basic](python-basic/README.md)
+  * [시작하기](python-basic/undefined.md)
