@@ -24,3 +24,5 @@
   * [Average](numpy/numpy-02-01-average.md)
 * [Pandas](pandas/README.md)
   * [Pandas 1](pandas/pandas-01.md)
+* [평균](pandas/README.md)  
+  * [이동평균](pandas/pandas-01-moving.md)
