@@ -22,5 +22,5 @@
   * [Random](numpy/numpy-01-02-random.md)
   * [Shape](numpy/numpy-01-03-shape.md)
   * [Average](numpy/numpy-02-01-average.md)
-* [데이터 전처리](data-preproc/README.md)
-  * [Pandas 1](data-preproc/pandas-01.md)
+* [Pandas](pandas/README.md)
+  * [Pandas 1](pandas/pandas-01.md)
