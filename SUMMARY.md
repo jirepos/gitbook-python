@@ -16,5 +16,6 @@
 * [Python Basic](python-basic/README.md)
   * [시작하기](python-basic/py-basic-01.md)
   * [숫자형](python-basic/py-basic-02.md)
+  * [리스트](python-basic/py-basic-02-03-list.md)
 * [데이터 전처리](data-preproc/README.md)
   * [Pandas 1](data-preproc/pandas-01.md)
