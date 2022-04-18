@@ -4,6 +4,13 @@
 ## 누적합계 cumsum 함수 
 cumsum은 배열에서 주어진 축에 따라 누적되는 원소들의 누적 합을 계산하는 함수.
 
+
+
+```python
+import numpy as np
+import pandas as pd
+```
+
 ```
 a = np.array([[1, 2, 3], [4, 5, 6]])
 a
