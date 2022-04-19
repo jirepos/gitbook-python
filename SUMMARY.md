@@ -14,7 +14,7 @@
 * [Java에서 Python 사용하기](java-python.md)
 * [Google Colab](google-colab.md)
 * [Python Basic](python-basic/README.md)
-  * [시작하기](python-basic/py-basic-01.md)
+  * [시작하기](python-basic/py-basic-01-01-start.md)
   * [숫자형](python-basic/py-basic-02-01-number.md)
   * [문자열](python-basic/py-basic-02-02-string.md)
   * [리스트](python-basic/py-basic-02-03-list.md)
