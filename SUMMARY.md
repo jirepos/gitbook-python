@@ -16,7 +16,7 @@
 * [평균](average/README.md)  
   * [이동평균](average/aver-01-moving.md)
   * [가중이동평균](average/aver-02-weight.md)
-* [Python DevOps](devops/README.md)
+* [DevOps](devops/README.md)
   * [Exe 파일 만들기](devops/make-python-exe.md)
   * [pip를 이용하여 github에서 패키지 설치하기](devops/pip-github.md)
   * [Python 개발환경 가이드](devops/python-environment.md)
