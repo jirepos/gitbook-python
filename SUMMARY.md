@@ -10,7 +10,10 @@
   * [Numpy 시작하기](numpy/numpy-01-01-get-started.md)
   * [Random](numpy/numpy-01-02-random.md)
   * [Shape](numpy/numpy-01-03-shape.md)
+  * [linspace](numpy/numpy-01-04-linspace.md)
+  * [arage](numpy/numpy-01-05-arange.md)
   * [평균,합계](numpy/numpy-02-01-average.md)
+
 * [Pandas](pandas/README.md)
   * [Pandas 1](pandas/pandas-01.md)
 * [평균](average/README.md)  
