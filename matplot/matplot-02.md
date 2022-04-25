@@ -1,5 +1,10 @@
 # Matplotlib 숫자 입력하기
 
+
+[Matplotlib Tutorial - 파이썬으로 데이터 시각화하기](https://wikidocs.net/137791)
+
+
+
 ```
 import matplotlib.pyplot as plt
 import numpy as np

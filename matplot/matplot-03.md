@@ -1,4 +1,11 @@
 # Matplotlib 축 레이블 설정하기
+
+
+[Matplotlib Tutorial - 파이썬으로 데이터 시각화하기](https://wikidocs.net/137791)
+
+
+
+
 matplotlib.pyplot 모듈의 xlabel(), ylabel() 함수를 사용하면 그래프의 x, y 축에 대한 레이블을 표시할 수 있습니다.
 
 이 페이지에서는 xlabel(), ylabel() 함수를 사용해서 그래프의 축에 레이블을 표시하는 방법에 대해 소개합니다.

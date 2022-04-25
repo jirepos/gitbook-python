@@ -1,4 +1,10 @@
 # Matplotlib 범례 표시하기
+
+[Matplotlib Tutorial - 파이썬으로 데이터 시각화하기](https://wikidocs.net/137791)
+
+
+
+
 ##  기본사용
 범례 (Legend)는 그래프에 데이터의 종류를 표시하기 위한 텍스트입니다.
 
