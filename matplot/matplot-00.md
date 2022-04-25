@@ -37,8 +37,26 @@ matplotlib.rcParams['axes.facecolor'] = "yellow"
 plt.plot([1,3,2])
 ```
 
-## 마이너스 부호 
 
+## plt.figure() 
+
+ plt.figure()이 맨 처음에 나오는 경우가 많다. figure()은 Figure인스턴스를 생성하는데 Figure인스턴스의 역할은 이미지 전체의 영역을 확보하는 것이다.
+
+ 인수로 아래와 같은 항목을 지정할 수 있다.
+
+* figsize : (width, height)의 튜플을 전달한다. 단위는 인치이다.
+* dpi : 1인치당의 도트 수
+* facecolor : 배경색
+* edgecolor : 외곽선의 색
+
+
+
+plt.figure()에서는 이미지 영역의 확보뿐이므로, 그래프에는 아무것도 그려지지 않는다
+
+
+
+출처: https://engineer-mole.tistory.com/215 [매일 꾸준히, 더 깊이]
+## 마이너스 부호 
 
 
 그래프에서 마이너스 기호가 깨진다. 마이너스 기호도 표시되도록 코드를 다음과 같이 작성한다. 
@@ -46,6 +64,7 @@ plt.plot([1,3,2])
 import matplotlib
 matplotlib.rcParams['axes.unicode_minus'] = False
 ```
+
 
 
 

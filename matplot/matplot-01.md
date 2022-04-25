@@ -1,4 +1,4 @@
-# Metplotlib 기본사용
+# Matplotlib 기본사용
 
 matplotlib.pyplot 모듈은 MATLAB과 비슷하게 명령어 스타일로 동작하는 함수의 모음입니다.
 
