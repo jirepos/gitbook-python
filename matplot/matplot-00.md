@@ -50,9 +50,7 @@ plt.plot([1,3,2])
 * edgecolor : 외곽선의 색
 
 
-
 plt.figure()에서는 이미지 영역의 확보뿐이므로, 그래프에는 아무것도 그려지지 않는다
-
 
 
 출처: https://engineer-mole.tistory.com/215 [매일 꾸준히, 더 깊이]
