@@ -18,7 +18,7 @@
 * [Pandas](pandas/README.md)
   * [시리즈 만들기](pandas/pandas-01.md)
   * [DataFrame 만들기](pandas/pandas-02.md)
-  * [Rolling](pandas/pandas-04.md)
+  * [Rolling](pandas/pandas-04-rolling.md)
 * [Matplotlib](matplot/README.md)
   * [시작하기](matplot/matplot-00.md)
   * [Basic](matplot/matplot-01.md)
