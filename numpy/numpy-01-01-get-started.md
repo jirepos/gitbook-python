@@ -1,10 +1,34 @@
 # numpy
 
-NumPy는 같은 유형의 "항목" 모음을 설명 하는 N차원 배열 유형인 ndarray 를 제공합니다. 즉, 파이썬의 리스트 처럼 다른 타입을 포함할 수 없다.
+numpy는 과학 계산을 위한 라이브러리로서 다차원 배열을 처리하는데 필요한 여러 유용한 기능을 제공하고 있다. 넘파이(numpy)의 주요 특징 중의 하나가 n차원 배열(ndarray) 객체이다. 이 객체는 빠르고 유연한 자료형이다. 수학식에서 행렬 연산과 비슷한 연산을 할 수 있다. 즉, 성분별 계산을 할 수 있다.
+
+NumPy는 같은 유형의 "항목" 모음을 설명 하는 N차원 배열 유형인 ndarray 를 제공한다.즉, 파이썬의 리스트 처럼 다른 타입을 포함할 수 없다.
 
 [Numpy 공식 홈페이지](https://numpy.org/doc/stable/reference/index.html#reference)
 
-numpy는 과학 계산을 위한 라이브러리로서 다차원 배열을 처리하는데 필요한 여러 유용한 기능을 제공하고 있다.
+
+
+
+배열은 1차원, 2차원, 3차원 배열 이렇게 있는데, 배열에는 축이라는 개념이 있다. 
+
+**Numpy의 차원**     
+* 1차원 축(행) : axis 0. vector라고 한다. 
+* 2차원 축(열) : axis 1. matrix라고 한다. 
+* 3차원 축(채널) : axis 2. tensor(3차원 이상)라고 한다. 
+
+
+**numpy 배열**    
+
+numpy에서 배열은 동일한 타입의 값들을 가지며, **배열의 차원을 rank** 라 하고, 각 **차원의 크기를 튜플**로 표시하는 것을 shape 라 한다.
+
+* rank 차원의 크기
+* shape 각 차원의 크긱를 튜플로 표시
+
+
+![](../.gitbook/assets/numpy/numpy00.png)
+출처: https://predictivehacks.com/tips-about-numpy-arrays/
+
+
 
 numpy는 pip을 사용하여 아래와 같이 간단히 설치할 수 있다.
 
@@ -12,12 +36,33 @@ numpy는 pip을 사용하여 아래와 같이 간단히 설치할 수 있다.
  pip install numpy    
 ```
 
-## numpy 배열
 
-numpy에서 배열은 동일한 타입의 값들을 가지며, **배열의 차원을 rank** 라 하고, 각 **차원의 크기를 튜플**로 표시하는 것을 shape 라 한다.
+## Vectors, the 1D Arrays
+```python 
+a = np.array( [ 1.,2.,3. ])
+```
 
-* rank 차원의 크기
-* shape 각 차원의 크긱를 튜플로 표시
+![](../.gitbook/assets/numpy/numpy04.png)
+
+
+zeros()는 해당 배열에 모두 0을 집어 넣는다. 
+```python 
+b = np.zeros(3, int) 
+```
+
+![](../.gitbook/assets/numpy/numpy05.png)
+
+모양 및 요소 유형별로 기존 배열과 일치하는 빈 배열을 만들어야 하는 경우가 많다.
+
+```python
+c = np.zeros_like(a)
+```
+
+
+![](../.gitbook/assets/numpy/numpy06.png)
+
+
+
 
 ### 파이썬 리스트를 사용하는 방법
 
@@ -35,6 +80,13 @@ print(a1.shape)  # (2,3)
 ```
 (2, 3)
 ```
+
+
+
+
+
+
+
 
 위의 예제에서 list_a는 3개의 요소를 갖는 2차원 배열인데 array() 함수에 넣어 numpy 배열을 생성한다.  이 배열의 rank는 2이 되고,shape는 (2, 3) 가 된다.
 
@@ -78,6 +130,8 @@ print(b[0,0])  # 1
 
 
 b[0,0]은 b[차원, 요소의 index]을 의미한다. 첫번째 차원의 첫번째 요소를 의미하니까 100이 출력이된다. 
+
+
 
 ### numpy에서 제공하는 함수를 사용
 
@@ -504,3 +558,5 @@ http://pythonstudy.xyz/python/article/402-numpy-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B
 https://www.delftstack.com/ko/howto/numpy/python-numpy-matrix-vector-multiplication/
 
 https://eunguru.tistory.com/215
+
+[NumPy Illustrated: The Visual Guide to NumPy](https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)

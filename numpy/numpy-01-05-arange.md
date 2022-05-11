@@ -39,3 +39,31 @@ print(x)
 ```
 
 
+
+```python
+import numpy as np
+a1 = np.arange(1, 13)  # numbers 1 to 12
+print(a1.shape)
+# (12,)
+print(a1)
+# [ 1  2  3  4  5  6  7  8  9 10 11 12]
+```
+
+![](../.gitbook/assets/numpy/numpy02.png)
+
+
+# reshape
+```python 
+a1_2d = a1.reshape(3, 4)  # 3_4
+print(a1_2d.shape)
+# (3, 4)
+print(a1_2d)
+# [[ 1  2  3  4]
+#   [ 5  6  7  8]
+#   [ 9 10 11 12]]
+```   
+
+![](../.gitbook/assets/numpy/numpy03.png)
+
+
+
