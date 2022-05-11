@@ -38,6 +38,8 @@ numpy는 pip을 사용하여 아래와 같이 간단히 설치할 수 있다.
 
 
 ## Vectors, the 1D Arrays
+### Vector initialization 
+
 ```python 
 a = np.array( [ 1.,2.,3. ])
 ```
@@ -62,6 +64,94 @@ c = np.zeros_like(a)
 ![](../.gitbook/assets/numpy/numpy06.png)
 
 
+사실, 상수 값으로 채워진 배열을 생성하는 모든 함수에는 _like 대응하는 함수가 있다.
+
+
+![](../.gitbook/assets/numpy/numpy07.png)
+
+
+
+NumPy에서는 monotonic sequence로 array를 초기화 하는 두 가지 function이 있다. 
+
+![](../.gitbook/assets/numpy/numpy08.png)
+
+
+**Syntax**     
+```
+arange(start, stop, step, dtype=None)
+```
+
+* start 배열의 시작값
+* stop 배열의 끝값
+* step 간격
+* dtype 배열의 타입을 지정
+
+step이 생략되면 default는 1이다.
+
+
+거러나 arange는 float를 처리하는데 좋지는 않다. 
+
+
+
+![](../.gitbook/assets/numpy/numpy09.png)
+
+
+
+종종 테스트를 위해 random하게 array를 생성할 필요가 있다. 
+
+
+
+![](../.gitbook/assets/numpy/numpy10.png)
+
+
+## Vector indexing
+일단 배열을 가지면, NumPy는 그것을 되롤려 주는 쉬운 방법들을 제공한다. 
+
+
+
+![](../.gitbook/assets/numpy/numpy11.png)
+
+
+fancy-indexing을 제외하고 views라고 부른다. 
+
+배열의 복사는 NumPy에서는 copy() 함수를 사용한다. 
+
+
+![](../.gitbook/assets/numpy/numpy12.png)
+
+또한 이러한 할당은 배열의 크기를 변경해서는 안 되므로 다음과 같은 트릭이 있다.
+
+
+![](../.gitbook/assets/numpy/numpy13.png)
+
+
+NumPy 배열에서 데이터를 가져오는 또 다른 매우 유용한 방법은 모든 종류의 논리 연산자를 사용할 수 있는 부울 인덱싱이다. 
+
+
+![](../.gitbook/assets/numpy/numpy14.png)
+
+
+위에서 볼 수 있듯이 부울 인덱싱도 쓰기 가능하다.  전용 기능으로 분리된 두 가지 일반적인 사용 사례: 과도하게 오버로드된 np.where와 np.clip 
+
+
+![](../.gitbook/assets/numpy/numpy15.png)
+
+
+### Vector operations
+
+산술은 NumPy 속도가 가장 빛나는 곳 중 하나이다. 벡터 연산자는 C++ 수준으로 이동하여 느린 Python 루프 비용을 피할 수 있다. NumPy를 사용하면 일반 숫자처럼 전체 배열을 조작할 수 있다.
+
+![](../.gitbook/assets/numpy/numpy16.png)
+
+
+더하거나 뺄 때 int가 float로 승격되는 것과 같은 방식으로 스칼라는 배열로 승격(일명 브로드캐스트)된다.
+
+
+![](../.gitbook/assets/numpy/numpy17.png)
+
+
+
+
 
 
 ### 파이썬 리스트를 사용하는 방법
@@ -80,7 +170,6 @@ print(a1.shape)  # (2,3)
 ```
 (2, 3)
 ```
-
 
 
 
