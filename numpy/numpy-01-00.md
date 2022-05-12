@@ -134,7 +134,7 @@ step이 생략되면 default는 1이다.
 
 
 
-## Vector indexing
+### Vector indexing
 일단 배열을 가지면, NumPy는 그것을 되롤려 주는 쉬운 방법들을 제공한다. 
 
 
@@ -358,6 +358,634 @@ print(a.tolist().index(1))
 이 부분은 원문을 참고한다. 
 
 
+
 ## Matrices, the 2D Arrays
 
+### 초기화 
+행렬 초기화 구문은 벡터와 유사하다. 
 
+![](../.gitbook/assets/numpy2/numpy200.png)
+
+
+
+### 난수 초기화 
+랜덤 행렬 생성도 벡터 생성과 유사하다. 
+
+![](../.gitbook/assets/numpy2/numpy201.png)
+
+
+
+* random.randint(low, high=None, size=None, dtype=int) 
+  * low에서 high까지 난수 생성. high는 포함하지 않음 
+
+```python 
+# 3 X 2 배열 
+a = np.random.randint(0,5, (3,2))
+print(a)
+```
+```
+[[4 3]
+ [0 1]
+ [2 0]]
+``` 
+* random.rand(m,n)
+  * 표준 정규분포 난수 생성 
+
+```python 
+a = np.random.rand(6)
+a
+```
+```
+array([0.79981356, 0.00214621, 0.95728712, 0.91816642, 0.52425588,
+       0.63573924])
+```
+```python 
+a = np.random.rand(6,3)
+a
+```
+```
+array([[0.33083918, 0.02330838, 0.28473976],
+       [0.49759274, 0.22651358, 0.80389883],
+       [0.5313266 , 0.19706346, 0.3217522 ],
+       [0.16666171, 0.23368573, 0.13317781],
+       [0.17391516, 0.43795381, 0.94966936],
+       [0.74039959, 0.10957951, 0.63990205]])
+```
+
+* random.uniform(low=0.0, high=1.0, size=None)
+  * low에서 high까지 size만큼 난수 생성 
+
+```python 
+a = np.random.uniform(1,10, 10)
+a
+```
+```
+array([2.30519791, 7.88569516, 2.15921334, 4.47757127, 2.12956828,
+       1.90862901, 1.84794401, 6.95818648, 5.67357883, 7.57111983])
+```
+
+**무작위 난수 만드는 함수**     
+* 이항분포(binomial distribution)
+  * random.binomial(n,p,size)
+* 초기하분포(Hypergeometric distribution)
+  * random.hypergeometric(ngood,nbad, nsample, size) 
+* 포아송분포(Poisson distribution)
+  * random.poisson(lam,size)
+* 정규분포(Normal distribution)
+  * random.normal(loc, scale, size) 
+* t-분포(t-distribution)
+  * random.standard_t(df, size)
+* 균등분포(uniform distribution)
+  * random.uniform(low, high, size)
+* F-분포(F-distribution)
+  * random.f(dfnum, dfden, size) 
+
+[무작위 표본추출 난수 만들기](https://rfriend.tistory.com/284)     
+
+### indexing 
+2차원 인덱싱 구문은 중첩 목록의 구문보다 더 편리하다. 
+
+
+![](../.gitbook/assets/numpy2/numpy202.png)
+
+
+(3,4) 배열을 하나 만든다. 
+```python 
+a = np.array([ [ 1,2,3,4,]
+              , [5,6,7,8]
+              ,[9,10,11,12]])
+a
+```
+이런 형식이다. 
+```
+array([[ 1,  2,  3,  4],
+       [ 5,  6,  7,  8],
+       [ 9, 10, 11, 12]])
+```
+
+Python에서 index는 0부터 시작한다. 
+두번째 배열(1)의 세번째(2) 요소의 값을 꺼낸다. 
+```
+r = a[1,2]
+r
+```
+```
+7
+```
+
+나머지는 코드를 작성하지 않고 그림을 참조한다.
+
+
+
+'view' 기호는 배열을 슬라이싱할 때 실제로 복사가 수행되지 않음을 의미한다.  배열이 수정되면 변경 사항이 슬라이스에도 반영된다. 
+
+
+
+### axis 인자
+많은 연산(예: sum)에서 행 또는 열에 걸쳐 연산을 수행하려는 경우 NumPy에 알려야 한다. 임의의 수의 차원에 대해 작동하는 보편적인 표기법을 갖기 위해 NumPy는 축 개념을 도입한다. 
+axis 인수의 값은 사실상 해당 인덱스의 번호입니다.
+
+첫번째 인덱스는 axis=0, 두번째 인덱스는 axis=1 등이다. 그래서 2D에서 axis=0은 column에 관한(column-wise)이고, axis=1은 row에 관한(row-wise) 것이다. 
+
+
+
+
+![](../.gitbook/assets/numpy2/numpy203.png)
+
+
+
+```python
+a = np.array( [[1,2,3], [4,5,6] ])
+a
+```
+```
+array([[1, 2, 3],
+       [4, 5, 6]])
+```
+
+```python
+sum = a.sum()
+sum
+```
+```
+21
+```
+
+```python 
+sum = a.sum(axis=0)
+sum
+```
+```
+array([5, 7, 9])
+```
+```python
+sum = a.sum(axis=1)
+sum
+```
+```
+array([ 6, 15])
+```
+
+
+### Matrix arithmetic
+요소별로 작동하는 일반 연산자(예: +,-,*,/,// 및 **) 외에도 행렬 곱을 계산하는 @ 연산자가 있다.
+
+
+![](../.gitbook/assets/numpy2/numpy204.png)
+
+```python 
+a = np.array( [ [1,2],[3,4]])
+a
+```
+```
+array([[1, 2],
+       [3, 4]])
+```
+
+```python 
+b = np.array( [ [1,0], [0,1] ])
+b
+```
+```
+array([[1, 0],
+       [0, 1]])
+```
+```python 
+c = a + b
+c
+```    
+```
+array([[2, 2],
+       [3, 5]])
+```   
+
+
+```python 
+a = np.array( [ [1,2],[3,4]])
+b = np.array( [ [2,0],[0,2]] )
+c = a * b 
+c
+```
+```
+array([[2, 0],
+       [0, 8]])
+```
+
+
+```python 
+a = np.array( [ [1,2],[3,4]])
+b = np.array( [ [2,0],[0,2]] )
+c = a @ b 
+c
+```
+```
+array([[2, 4],
+       [6, 8]])
+```
+
+```python 
+a = np.array( [ [1,2],[3,4]])
+b = np.array( [ [2,1],[1,2]] )
+c = a / b 
+c
+```
+```
+array([[0.5, 2. ],
+       [3. , 2. ]])
+```       
+```python 
+a = np.array( [ [1,2],[3,4]])
+b = np.array( [ [2,1],[1,2]] )
+c = a ** b  # 제곱계산 
+c
+```
+```
+array([[ 1,  2],
+       [ 3, 16]])
+```
+
+NumPy는 벡터와 행렬, 심지어 두 벡터 사이에서도 혼합 연산을 허용한다. 
+
+![](../.gitbook/assets/numpy2/numpy205.png)
+
+```python 
+a = np.array( [ [1,2,3], [4,5,6], [7,8,9]])
+a
+```
+```
+array([[1, 2, 3],
+       [4, 5, 6],
+       [7, 8, 9]])
+```
+
+```python 
+a = np.array( [ [1,2,3], [4,5,6], [7,8,9]])
+c  = a / 9 
+c
+```
+```
+array([[0.11111111, 0.22222222, 0.33333333],
+       [0.44444444, 0.55555556, 0.66666667],
+       [0.77777778, 0.88888889, 1.        ]])
+```
+```python 
+a = np.array( [ [1,2,3], [4,5,6], [7,8,9]])
+b = np.array( [ [-1,0, 1]])
+c  = a * b 
+c
+```       
+```
+array([[-1,  0,  3],
+       [-4,  0,  6],
+       [-7,  0,  9]])
+```
+
+```python 
+a = np.array( [ [1,2,3], [4,5,6], [7,8,9]])
+b = np.array( [ [3],[6], [9]])
+c  = a / b 
+c
+```
+```
+array([[0.33333333, 0.66666667, 1.        ],
+       [0.66666667, 0.83333333, 1.        ],
+       [0.77777778, 0.88888889, 1.        ]])
+```
+
+```python 
+a = np.array( [ [1,2,3], [1,2,3], [1,2,3]])
+b = np.array( [ [1],[2], [3]])
+c  = a * b 
+c
+```
+
+```
+array([[1, 2, 3],
+       [2, 4, 6],
+       [3, 6, 9]])
+```
+
+마지막 예에서는 대칭적인 요소별 곱셈이다. 비대칭 선형 대수 행렬 곱셈을 사용하여 외적을 계산하려면 피연산자의 순서를 반대로 해야 한다.
+
+Note that in the last example it is a symmetric per-element multiplication. To calculate the outer product using an asymmetric linear algebra matrix multiplication the order of the operands should be reversed:
+
+
+![](../.gitbook/assets/numpy2/numpy206.png)
+
+
+### Row vectors and column vectors
+
+![](../.gitbook/assets/numpy2/numpy210.png)
+
+2D 배열에서 a[:,j]는  2차원 배열 a의 j번째 컬럼을 의미하고 이것은 1D 어래이이다. 
+
+
+a 배열은 2차원 배열이다. 
+```python 
+a = np.array( [ [1,2,3], [4,5,6] ])
+a
+```
+```
+array([[1, 2, 3],
+       [4, 5, 6]])
+```
+다음은 모든 행을 선택하고 두번째 컬럼을 반환한다. 
+```python
+b =a[:, 1]
+b
+```
+반환된 것이 1차원 배열임을 알 수 있다. 
+```
+array([2, 5])
+```
+타입을 확인하면 ndarray이다. 
+```
+type(b)
+```
+```
+numpy.ndarray
+```
+shape를 확인해보자. 
+```python 
+print(b.shape)
+```
+```
+(2,)
+```
+행을 선택해 보자. 
+```python
+# 행선택
+b = a[0]
+b
+```
+```
+array([1, 2, 3])
+```
+두번째 행의 두번째 항목을 선택해 보자. 
+```python
+# 두번째 행의 두번채 열 
+b = a[1,1]
+b 
+```
+```
+5
+```
+
+처음부터 세번째 행(세번째는 포함안됨)까지 3번째 컬럼을 선택해보자. 
+```python 
+a = np.array( [ [1,2,3], [4,5,6], [ 7,8,9] ])
+a
+```
+```
+array([[1, 2, 3],
+       [4, 5, 6],
+       [7, 8, 9]])
+```
+```python 
+b = a[:2, 2]
+b
+```
+```
+array([3, 6])
+```
+2보다 큰 원소에만 접근 
+```python
+# 2보다 큰 원소에만 접근
+b = a[a > 2]
+b
+```
+```
+array([3, 4, 5, 6, 7, 8, 9])
+```
+
+
+![](../.gitbook/assets/numpy2/numpy211.png)
+
+
+```python
+a = np.array( [1,2,3,4,5,6])
+b = a.reshape(1,-1)
+b
+```
+```
+array([[1, 2, 3, 4, 5, 6]])
+```
+
+여기서 -1 인수는 reshape가 차원 크기 중 하나를 자동으로 계산하도록 지시한다. 대괄호 안의 None은 np.newaxis의 바로 가기 역할을 한다. 
+
+> reshape를 활용하는 경우를 보다 보면 입력인수로 -1이 들어간 경우가 종종 있다.
+reshape()의 ‘-1’이 의미하는 바는, 변경된 배열의 ‘-1’ 위치의 차원은 “원래 배열의 길이와 남은 차원으로 부터 추정”이 된다는 뜻이다.
+
+```python 
+a = np.array( [1,2,3,4,5,6])
+b = a.reshape(-1,1)
+b
+```
+```
+array([[1],
+       [2],
+       [3],
+       [4],
+       [5],
+       [6]])
+```
+
+```
+a = np.array( [1,2,3,4,5,6])
+b = a.reshape(2,3)
+b
+```
+```
+array([[1, 2, 3],
+       [4, 5, 6]])
+```
+      
+
+
+NumPy에는 1D 배열, 2D 행 벡터 및 2D 열 벡터의 총 세 가지 유형의 벡터가 있다. 다음은 이들 간의 명시적 변환 다이어그램이다. 
+![](../.gitbook/assets/numpy2/numpy212.png)
+
+
+### Matrix manipulations 
+배열을 합치는 두 가지 주요 함수들이 있다. 
+
+![](../.gitbook/assets/numpy2/numpy213.png)
+
+
+```python 
+a = np.array([ [1,2,3,4],[5,6,7,8],[9,10,11,12] ])
+a
+```
+```
+array([[ 1,  2,  3,  4],
+       [ 5,  6,  7,  8],
+       [ 9, 10, 11, 12]])
+```
+```python 
+b = np.array([ [1,2,3,4], [5,6,7,8]])
+b
+```
+```
+array([[1, 2, 3, 4],
+       [5, 6, 7, 8]])
+``` 
+```python 
+c = np.array([  [1,2], [3,4 ],[5,6] ])
+c
+```
+```
+array([[1, 2],
+       [3, 4],
+       [5, 6]])
+```
+```python 
+r = np.hstack((a,c))
+r
+```       
+```
+array([[ 1,  2,  3,  4,  1,  2],
+       [ 5,  6,  7,  8,  3,  4],
+       [ 9, 10, 11, 12,  5,  6]])
+```
+```python 
+r = np.vstack((a,b))
+r
+```
+```
+array([[ 1,  2,  3,  4],
+       [ 5,  6,  7,  8],
+       [ 9, 10, 11, 12],
+       [ 1,  2,  3,  4],
+       [ 5,  6,  7,  8]])
+```
+
+![](../.gitbook/assets/numpy2/numpy214.png)
+
+
+
+
+stacking과는 반대로 split는 분리한다. 
+
+![](../.gitbook/assets/numpy2/numpy215.png)
+
+
+y 배열은 다음과 같다. 
+```
+array([[ 1,  2,  3,  4,  1,  2],
+       [ 5,  6,  7,  8,  3,  4],
+       [ 9, 10, 11, 12,  5,  6]])
+```       
+y 배열을 두 개로 나누자. 
+
+```python 
+x = np.hsplit(y,2)
+x
+```
+```
+```
+[array([[ 1,  2,  3],
+        [ 5,  6,  7],
+        [ 9, 10, 11]]), array([[ 4,  1,  2],
+        [ 8,  3,  4],
+        [12,  5,  6]])]
+```
+3개로 나누어 보자.
+```python 
+x = np.hsplit(y, 3)
+x
+```
+```
+[array([[ 1,  2],
+        [ 5,  6],
+        [ 9, 10]]), array([[ 3,  4],
+        [ 7,  8],
+        [11, 12]]), array([[1, 2],
+        [3, 4],
+        [5, 6]])]
+```
+같은 크기로 나누어지는 것을 볼 수 있다.  4를 인자로 전달하면 동일한 크기로 나눌 수 없으므로 오류가 발생할 것이다. 
+
+
+4개 컬럼을 갖는 배열과 두 개의 컬럼을 갖는 배열로 나누어 보자. 
+```python 
+x = np.hsplit(y, np.array([4, 6]))
+x
+```
+```
+[array([[ 1,  2,  3,  4],
+        [ 5,  6,  7,  8],
+        [ 9, 10, 11, 12]]), array([[1, 2],
+        [3, 4],
+        [5, 6]]), array([], shape=(3, 0), dtype=int64)]
+```
+
+4개의 컬럼을 갖는 배열과 한 개의 컬럼을 갖는 배열로 나누어 보자. 
+```python 
+x = np.hsplit(y, np.array([4, 5]))
+x
+```
+```
+[array([[ 1,  2,  3,  4],
+        [ 5,  6,  7,  8],
+        [ 9, 10, 11, 12]]), array([[1],
+        [3],
+        [5]]), array([[2],
+        [4],
+        [6]])]
+```        
+나누어 지긴 했는데 마지막 컬럼이 남게 되어 3개의 배열로 나누어졌다. 
+이것은 다음과 같이 해도 동일하다. 
+```python 
+x = np.hsplit(y, np.array([4, 5,6]))
+x
+```
+
+다음은 3개를 기준으로 나눈다. 
+```python 
+x = np.hsplit(y, [3] )
+x
+```
+```
+[array([[ 1,  2,  3],
+        [ 5,  6,  7],
+        [ 9, 10, 11]]), array([[ 4,  1,  2],
+        [ 8,  3,  4],
+        [12,  5,  6]])]
+```
+다음은 두 개를 기준으로 나눈다. 
+```python 
+x = np.hsplit(y, [2] )
+x
+```
+```        
+[array([[ 1,  2],
+        [ 5,  6],
+        [ 9, 10]]), array([[ 3,  4,  1,  2],
+        [ 7,  8,  3,  4],
+        [11, 12,  5,  6]])]
+```
+
+튜플을 사용하여 분리 할 수 있다. 
+
+```python
+x = np.hsplit(y, (4,6 ))
+x
+```
+```
+[array([[ 1,  2,  3,  4],
+        [ 5,  6,  7,  8],
+        [ 9, 10, 11, 12]]), array([[1, 2],
+        [3, 4],
+        [5, 6]]), array([], shape=(3, 0), dtype=int64)]
+```
+
+
+
+더 많은 내용은 [원문](https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)을 참고한다. 
+
+
+
+## Rerferences
+[NumPy Illustrated: The Visual Guide to NumPy](https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)    
+
+[무작위 표본추출 난수 만들기](https://rfriend.tistory.com/284)      

@@ -8,7 +8,7 @@
   * [리스트](basic/py-basic-02-03-list.md)
 * [Numpy](numpy/README.md) 
   * [Numpy 정리](numpy/numpy-01-00.md)
-  * [Numpy 시작하기](numpy/numpy-01-01-get-started.md)
+  * [Numpy 시작하기](numpy/numpy-01-01.md)
   * [Random](numpy/numpy-01-02-random.md)
   * [Shape](numpy/numpy-01-03-shape.md)
   * [linspace](numpy/numpy-01-04-linspace.md)
