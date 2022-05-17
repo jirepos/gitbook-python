@@ -9,7 +9,7 @@ P(10 <= X <= 13 )
 10은 표준정규분포의 0이 되고 13은 표준정규분포의 x가 된다. 
 
 
-![](../.gitbook/assets/normal/normal14.png)
+![](../../.gitbook/assets/da/normal/normal14.png)
 
 
 
@@ -17,7 +17,7 @@ P(10 <= X <= 13 )
 공식이 있는데, 
 
 
-![](../.gitbook/assets/normal/normal15.png)
+![](../../.gitbook/assets/da/normal/normal15.png)
 
 
 
@@ -53,7 +53,7 @@ Z = ----------------  =  1.5
 
 
 
-![](../.gitbook/assets/normal/normal16.png)
+![](../../.gitbook/assets/da/normal/normal16.png)
 
 
 

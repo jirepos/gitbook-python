@@ -12,7 +12,7 @@ P(26 <= X <=32)
 26과 32를 표준화하여 값을 구한다. 
 
 
-![](../.gitbook/assets/normal/normal17.png)
+![](../../.gitbook/assets/da/normal/normal17.png)
 
 그러면 다음 식은 같다. 
 ```
@@ -46,14 +46,14 @@ P(26 <= x <= 32) = P( -1.0 <=  z <= 0.5)
 아래 그림에서 평균 아래는 0.5이다. 확률값 전체의 크기는 1이고 정규분포에서 반은 0.5이다. 
 
 
-![](../.gitbook/assets/normal/normal18.png)
+![](../../.gitbook/assets/da/normal/normal18.png)
 
 
 
 그래서 30에서 34까지의 넓이만 구하면 된다. 그 값에 0.5를 더한다. 
 
 
-![](../.gitbook/assets/normal/normal19.png)
+![](../../.gitbook/assets/da/normal/normal19.png)
 
 
 ```
@@ -74,7 +74,7 @@ x => N(300, 10^2)
 ```
 
 
-![](../.gitbook/assets/normal/normal20.png)
+![](../../.gitbook/assets/da/normal/normal20.png)
 
 
 음수는 양수로 바꾸어서 계산해도 넓이가 같으므로 다음과 같이 계산가능하다. 

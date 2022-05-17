@@ -16,7 +16,7 @@
 제곱의 합을 (변량의 갯수 -1)로 나눈다. 
 
 
-![](../.gitbook/assets/avg/avg01.png)
+![](../../.gitbook/assets/da/avg/avg01.png)
 
 
 ```
@@ -39,7 +39,7 @@
 
 
 
-![](../.gitbook/assets/avg/avg07.png)
+![](../../.gitbook/assets/da/avg/avg07.png)
 
 
 ```

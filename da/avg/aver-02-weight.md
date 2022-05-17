@@ -5,22 +5,22 @@
 가중 산술 평균은 자료의 평균을 구할 때 자료 값의 중요도나 영향 정도에 해당하는 가중치를 반영하여 구한 평균값이다.
 
 예를 들면,  어느 학생의 아래 성적표에서 평균은
-![](../.gitbook/assets/aver/aver01.png)
+![](../../.gitbook/assets/da/avg/aver01.png)
 
 
 이다.  그런데 이 학생이 A예술고의 실용음악과를 진학 하려는데, 해당 학과장님은 수학과 음악에 비중을 두어 입학생을 뽑으려 한다. 아래 가중치를 적용하여 가중 산술 평균을 구해보자
 
-![](../.gitbook/assets/aver/aver02.png)
+![](../../.gitbook/assets/da/avg/aver02.png)
 
 그러면 이 학생이 B체육고에 진학 해보려 한다면 아래 가중치를 적용하여 가중 산술 평균을 구해보자.
 
-![](../.gitbook/assets/aver/aver03.png)
+![](../../.gitbook/assets/da/avg/aver03.png)
 
 ## 가중치가 백분율일 떄
 가중치를 %로 나타낼 때에는 가중치의 합은 100%(1)이다. 대개 가중치는 합해서 100이 되거나 1이 되는 경우로 제시된다.
 
 
-![](../.gitbook/assets/aver/aver04.png)
+![](../../.gitbook/assets/da/avg/aver04.png)
 
 Grade를 Weight와 곱한다. 곱한 값들의 합을 구하면 가중 평균이 된다. 위의 표에서는 0.8175가 된다. 
 
@@ -28,11 +28,11 @@ Grade를 Weight와 곱한다. 곱한 값들의 합을 구하면 가중 평균이
 ## 가중치가 백분율이 아닐 때
 
 
-![](../.gitbook/assets/aver/aver05.png)
+![](../../.gitbook/assets/da/avg/aver05.png)
 
 가중치로 곱하여 얻은 값들의 합계를 가중치의 합계로 나눈다. 그것이 바로 가중치 평균, 즉 정답이다.
 
-![](../.gitbook/assets/aver/aver06.png)
+![](../../.gitbook/assets/da/avg/aver06.png)
 
 ```
 grades = [ 90, 80, 70, 60, 50]  # 성적 

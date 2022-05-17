@@ -16,7 +16,7 @@ https://youtu.be/cUDr0BydCGg
 
 
 
-![](../.gitbook/assets/normal/normal03.png)
+![](../../.gitbook/assets/da/normal/normal03.png)
 
 
 연속확률분포를 그래프로 표현하는 것을 확률밀도함수라고 한다. 
@@ -27,13 +27,13 @@ https://youtu.be/cUDr0BydCGg
 그래프의 한 가운데는 반드시 평균이되고 스몰 m으로 표현한다. 
 
 
-![](../.gitbook/assets/normal/normal04.png)
+![](../../.gitbook/assets/da/normal/normal04.png)
 
 
 
 정규분포를 기호로 표현한다고 하면 Normal하다고 해서 다음과 같이 표현한다. 
 
-![](../.gitbook/assets/normal/normal07.png)
+![](../../.gitbook/assets/da/normal/normal07.png)
 
 
 
@@ -41,7 +41,7 @@ https://youtu.be/cUDr0BydCGg
 N(μ, α^2)로 표현되는 정규분포라고 정의한다. 
 
 
-![](../.gitbook/assets/normal/normal06.png)
+![](../../.gitbook/assets/da/normal/normal06.png)
 
 
 
@@ -54,7 +54,7 @@ X ~ N(10, 2^2)
 * 표준편차 2 
 
 
-![](../.gitbook/assets/normal/normal08.png)
+![](../../.gitbook/assets/da/normal/normal08.png)
 
 
 
@@ -64,7 +64,7 @@ X ~ N(10, 2^2)
 X ~ N(100, 10^2)
 ```
 
-![](../.gitbook/assets/normal/normal09.png)
+![](../../.gitbook/assets/da/normal/normal09.png)
 
 
 
@@ -76,7 +76,7 @@ X ~ N(100, 10^2)
 X ~ N(0, 1 ^ 2)
 ```
 
-![](../.gitbook/assets/normal/normal10.png)
+![](../../.gitbook/assets/da/normal/normal10.png)
 
 
 그런데, 변수 X가 10에서 12일 때의 확률이 얼마냐고 묻는다면? 
@@ -88,19 +88,19 @@ P(10 <= x <= 12)
 
 변수 x가 10에서 12일때까지의 확률을 구하는게 10에서 12의 넓이를 구하는게 확률을 구하는 것이다. 
 
-![](../.gitbook/assets/normal/normal11.png)
+![](../../.gitbook/assets/da/normal/normal11.png)
 
 
 재미 있는 것은 평균에서 10에서 12, 그러니까 평균에서 편차 하나를 더한 것의 넓이가 변수는 다르지만 아래 그림의 평균에서 평균 하나까지 더한 것의 넓이와 같다. 
 
 
 
-![](../.gitbook/assets/normal/normal12.png)
+![](../../.gitbook/assets/da/normal/normal12.png)
 
 마찬가지로 Z 변수의 평균과 평균에서 편차를 하나 더한 것과 같다. 그러면 그 확률은 어떻게 구하는가? 
 바로 아래 Z 변수의 확률로 구한다. 
 
-![](../.gitbook/assets/normal/normal13.png)
+![](../../.gitbook/assets/da/normal/normal13.png)
 
 
 

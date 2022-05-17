@@ -22,13 +22,13 @@
 표본평균을 X바 
 
 
-![](../.gitbook/assets/samplemean/sm01.png)
+![](../../.gitbook/assets/da/samplemean/sm01.png)
 
 
 표본평균들의 평균 
 
 
-![](../.gitbook/assets/samplemean/sm02.png)
+![](../../.gitbook/assets/da/samplemean/sm02.png)
 
 
 
@@ -41,20 +41,20 @@
 
 
 
-![](../.gitbook/assets/samplemean/sm03.png)
+![](../../.gitbook/assets/da/samplemean/sm03.png)
 
 
 두번째 표본은 아래과 같이 표현한다. 
 
 
-![](../.gitbook/assets/samplemean/sm04.png)
+![](../../.gitbook/assets/da/samplemean/sm04.png)
 
 
 
 이런표본이 k가 있다. 
 
 
-![](../.gitbook/assets/samplemean/sm05.png)
+![](../../.gitbook/assets/da/samplemean/sm05.png)
 
 
 
@@ -62,7 +62,7 @@
 각 표본의 평균을 구하면 아래와 같다. 
 
 
-![](../.gitbook/assets/samplemean/sm06.png)
+![](../../.gitbook/assets/da/samplemean/sm06.png)
 
 
 
@@ -72,14 +72,14 @@
 표본은 시간만 있다면 무수히 많이 뽑을 수 있다. 따라서 표본 평균의 평균을 구할 때 ,k를 무한대로 보내야 한다.  
 
 
-![](../.gitbook/assets/samplemean/sm07.png)
+![](../../.gitbook/assets/da/samplemean/sm07.png)
 
 
 
 놀랍게도 표본평균의 평균은 모평균과 같아진다. 
 
 
-![](../.gitbook/assets/samplemean/sm08.png)
+![](../../.gitbook/assets/da/samplemean/sm08.png)
 
 
 
@@ -87,13 +87,13 @@
 ### 표본평균들의 분산 
 이번에는 표분 평균의 분산을 구한다. 
 
-![](../.gitbook/assets/samplemean/sm09.png)
+![](../../.gitbook/assets/da/samplemean/sm09.png)
 
 
 놀랍게도 표본평균의 분산은 모분산을 표본의 크기로 나눈 값과 같아진다. 
 
 
-![](../.gitbook/assets/samplemean/sm10.png)
+![](../../.gitbook/assets/da/samplemean/sm10.png)
 
 
 
@@ -106,7 +106,7 @@
 
 
 
-![](../.gitbook/assets/samplemean/sm11.png)
+![](../../.gitbook/assets/da/samplemean/sm11.png)
 
 
 
@@ -115,12 +115,12 @@
 모집단에서 조사하고자 하는 특성을 나타내는 확률변수를 X라고 할 때, X의 평균, 분산, 표준편차를 각각 모평균, 모분산, 모표준편차라고 하며, 이것을 기호로 다음과 같이 나타낸다. 
 
 
-![](../.gitbook/assets/samplemean/sm12.png)
+![](../../.gitbook/assets/da/samplemean/sm12.png)
 
 
 ### 모평균과 표본평균 계산 
 
-![](../.gitbook/assets/samplemean/sm13.png)
+![](../../.gitbook/assets/da/samplemean/sm13.png)
 
 
 
@@ -176,4 +176,4 @@ P(0 ≤ Z  ≤  2) = 0.4772이므로
 
 
 
-![](../.gitbook/assets/samplemean/sm14.png)
+![](../../.gitbook/assets/da/samplemean/sm14.png)

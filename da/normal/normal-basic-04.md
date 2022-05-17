@@ -26,7 +26,7 @@ NORM.S.DIST 함수는 표준 정규 분포의 확률밀도함수와 누적분포
 ### 엑셀로 만들기 
 아래는 누적정규분포의 예이다.
 
-![](../.gitbook/assets/normal/normal21.png)
+![](../../.gitbook/assets/da/normal/normal21.png)
 
 
 NORM.S.DIST 함수를 사용하여 Z 값을 넣어주고 TRUE로 설정한다.
@@ -43,7 +43,7 @@ Z값이 0.75일 때  0~0.75사이의 면적을 구하는 방법이다.
 
 
 
-![](../.gitbook/assets/normal/normal22.png)
+![](../../.gitbook/assets/da/normal/normal22.png)
 
 
 
@@ -107,14 +107,14 @@ NORM.DIS() 함수에서 마지막에 TRU하면 누적분포함수이고, FALSE�
 확률질량함수
 일단 FALSE로한다. 
 
-![](../.gitbook/assets/normal/normal23.png)
+![](../../.gitbook/assets/da/normal/normal23.png)
 
 
 그래프를 그려보자. 
 
 
 
-![](../.gitbook/assets/normal/normal24.png)
+![](../../.gitbook/assets/da/normal/normal24.png)
 
 
 
@@ -125,7 +125,7 @@ NORM.DIS() 함수에서 마지막에 TRU하면 누적분포함수이고, FALSE�
 x = 0 ~ (어떤 확률변수) 까지의 적분값을 의미한다. 
 따라서 누적분포함수는 부정적분으로 다음과 같이 나타낸다. 
 
-![](../.gitbook/assets/normal/normal25.png)
+![](../../.gitbook/assets/da/normal/normal25.png)
 
 
 
@@ -133,14 +133,14 @@ x = 0 ~ (어떤 확률변수) 까지의 적분값을 의미한다.
 그래서 다음과 같이 나타낼 수 있다. 
 
 
-![](../.gitbook/assets/normal/normal26.png)
+![](../../.gitbook/assets/da/normal/normal26.png)
 
 
 
 셀에서 밑의 cultivate의 값을 True 로 변경하면, 누적확률분포를 구할 수 있다. 
 
 
-![](../.gitbook/assets/normal/normal27.png)
+![](../../.gitbook/assets/da/normal/normal27.png)
 
 
 엑셀에서 밑의 cultivate의 값을 True 로 변경하면, 
@@ -148,7 +148,7 @@ x = 0 ~ (어떤 확률변수) 까지의 적분값을 의미한다.
 
 
 
-![](../.gitbook/assets/normal/normal28.png)
+![](../../.gitbook/assets/da/normal/normal28.png)
 
 기준값이 -3인 경우, [-3,x]의 범위에서
 발생할 수 있는 확률을 순서대로 나타내는 것이다. 

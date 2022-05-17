@@ -137,7 +137,7 @@ X  - k ·  α / √n   ≤ m  ≤  X  + k ·  α / √n
 ## 추가설명
 구간추정
 
-![](../.gitbook/assets/samplemean/sm15.png)
+![](../../.gitbook/assets/da/samplemean/sm15.png)
 
 
 
@@ -150,14 +150,14 @@ X  - k ·  α / √n   ≤ m  ≤  X  + k ·  α / √n
 표본 평균의 분포는 다음 식의 정규분포를 따른다. 
 
 
-![](../.gitbook/assets/samplemean/sm16.png)
+![](../../.gitbook/assets/da/samplemean/sm16.png)
 
 
 
 정규분포 확률분포 변수 Z가 -1.6에서 1.96 사이에 들어올 확률이 0.95이다. 
 
 
-![](../.gitbook/assets/samplemean/sm17.png)
+![](../../.gitbook/assets/da/samplemean/sm17.png)
 
 
 정규분포의 표준화 
@@ -165,15 +165,15 @@ X바를 표준화해서 만들 수 있는데
 
 
 
-![](../.gitbook/assets/samplemean/sm18.png)
+![](../../.gitbook/assets/da/samplemean/sm18.png)
 
 
 
 그래서 이렇게 식을 써도 된다. 
 
-![](../.gitbook/assets/samplemean/sm19.png)
+![](../../.gitbook/assets/da/samplemean/sm19.png)
 
 
 
-![](../.gitbook/assets/samplemean/sm20.png)
+![](../../.gitbook/assets/da/samplemean/sm20.png)
 

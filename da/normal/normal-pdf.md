@@ -38,7 +38,7 @@ X =150,151.1,151.2 ....무수히 많다. 그래서 표로 나타내지 않는다
 
 
 
-![](../.gitbook/assets/normal/normal01.png)
+![](../../.gitbook/assets/da/normal/normal01.png)
 
 
 
@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=RoY8_SooipI
 연속확률변수의 누적분포함수를 그래프로 그려보면 다음과 같다. 
 
 
-![](../.gitbook/assets/normal/normal02.png)
+![](../../.gitbook/assets/da/normal/normal02.png)
 
 
 
