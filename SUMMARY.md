@@ -35,21 +35,19 @@
     * [DataFrame 합치기](pkg/pandas/pandas-03.md)
     * [Rolling](pkg/pandas/pandas-04-rolling.md)
     * [DataFrame 조건에 맞는 데이터 추출](pkg/pandas/pandas-05.md)
-  * [Scipy](scipy/README.md)
-    * [기본](scipy/scipy-01.md)
+  * [Scipy](pkg/scipy/README.md)
+    * [기본](pkg/scipy/scipy-01.md)
+  * [Matplotlib](pkg/matplot/README.md)
+    * [시작하기](pkg/matplot/matplot-00.md)
+    * [Basic](pkg/matplot/matplot-01.md)
+    * [숫자입력](pkg/matplot/matplot-02.md)
+    * [축레이블설정](pkg/matplot/matplot-03.md)
+    * [범례](pkg/matplot/matplot-04.md)
+  * [Sklearn](pkg/sklearn/README.md)
+    * [사이킷런 데이터 셋](pkg/sklearn/sklearn-00.md)
+    * [학습과 테스트 셋트 분리](pkg/sklearn/sklearn-01-split.md)  
 
 
-
-
-* [Matplotlib](matplot/README.md)
-  * [시작하기](matplot/matplot-00.md)
-  * [Basic](matplot/matplot-01.md)
-  * [숫자입력](matplot/matplot-02.md)
-  * [축레이블설정](matplot/matplot-03.md)
-  * [범례](matplot/matplot-04.md)
-* [Sklearn](sklearn/README.md)
-  * [사이킷런 데이터 셋](sklearn/sklearn-00.md)
-  * [학습과 테스트 셋트 분리](sklearn/sklearn-01-split.md)  
 
 * [데이터분석](da/README.md)    
   * [수학기초](da/math-basic/README.md)
@@ -84,11 +82,6 @@
       * [statsmodel 단순회귀분석](regression/python/regress-08.md)
       * [sklearn 단순회귀분석](regression/python/regress-09.md)
       * [sklearn 다중회귀분석](regression//python/regress-10.md)  
-
-
-
-
-
 
 
 

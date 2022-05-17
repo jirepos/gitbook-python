@@ -22,7 +22,7 @@ matplotlib은 그래프를 그리기 위해서 Runtime Configuration Parameters,
 
 
 
-![](../.gitbook/assets/matplot/matplot-26.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-26.png)
 
 
 

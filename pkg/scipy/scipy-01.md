@@ -46,7 +46,7 @@ array([0.15865525, 0.5       , 0.84134475])
 
 평균이 0 이고 표준편차가 1인 정규분포의 확률변수값 1.07의 누적확률밀도를 구해보자.
 
-![](../.gitbook/assets/scipy/scipy01.png)
+![](../../.gitbook/assets/pkg/scipy/scipy01.png)
 
 
 ```
@@ -140,7 +140,7 @@ plt.show()
 
 
 
-![](../.gitbook/assets/scipy/scipy02.png)
+![](../../.gitbook/assets/pkg/scipy/scipy02.png)
 
 
 
@@ -160,7 +160,7 @@ plt.show()
 ```
 
 
-![](../.gitbook/assets/scipy/scipy03.png)
+![](../../.gitbook/assets/pkg/scipy/scipy03.png)
 
 
 
@@ -181,6 +181,6 @@ ax.set_ylim([0,1.05]) #y축 범위
 ```
 
 
-![](../.gitbook/assets/scipy/scipy04.png)
+![](../../.gitbook/assets/pkg/scipy/scipy04.png)
 
 

@@ -2,7 +2,7 @@
 
 붓꽃 데이터 세트는 분류(Classification)를 하기 위한 대표적 데이터셋으로, 꽃잎의 길이, 너비를 기반으로 꽃의 품종을 예측할 수 있다.
 
-![](../.gitbook/assets/sklearn/sklearn01.png)
+![](../../.gitbook/assets/pkg/sklearn/sklearn01.png)
 
 
 

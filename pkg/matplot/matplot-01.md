@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 ```
 
-![](../.gitbook/assets/matplot/matplot-01.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-01.png)
 
 
 ## 기본그래프 그리기
@@ -44,7 +44,7 @@ plt.show()
 
 
 
-![](../.gitbook/assets/matplot/matplot-02.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-02.png)
 
 
 ## 스타일 지정하기
@@ -56,7 +56,7 @@ plt.axis([0, 6, 0, 20])
 plt.show()
 ```
 
-![](../.gitbook/assets/matplot/matplot-03.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-03.png)
 
 
 
@@ -93,7 +93,7 @@ plt.show()
 ```
 
 
-![](../.gitbook/assets/matplot/matplot-04.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-04.png)
 
 
 

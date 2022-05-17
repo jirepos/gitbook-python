@@ -12,7 +12,7 @@ matplotlib.pyplot 모듈의 xlim(), ylim(), axis() 함수를 사용하면 그래
 * axis() - X, Y축이 표시되는 범위를 지정하거나 반환
 
 
-![](../.gitbook/assets/matplot/matplot-27.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-27.png)
 
 
 ## 기본사용 
@@ -47,7 +47,7 @@ plt.ylim([0, 20])     # Y축의 범위: [ymin, ymax]
 plt.show()
 ```
 
-![](../.gitbook/assets/matplot/matplot-28.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-28.png)
 
 
 
@@ -58,7 +58,7 @@ plt.axis([xmin, xmax, ymin, ymax])
 ```
 
 
-![](../.gitbook/assets/matplot/matplot-28.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-28.png)
 
 
 
@@ -94,7 +94,7 @@ plt.show()
 ```
 
 
-![](../.gitbook/assets/matplot2/matplot2-01.png)
+![](../../.gitbook/assets/pkg/matplot2/matplot2-01.png)
 
 
 

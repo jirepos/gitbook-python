@@ -13,7 +13,7 @@ matplotlib.pyplot 모듈의 legend() 함수를 사용해서 그래프에 범례�
 이 페이지에서는 그래프에 다양한 방식으로 범례를 표시하는 방법에 대해 소개합니다.
 
 
-![](../.gitbook/assets/matplot/matplot-19.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-19.png)
 
 ```
 import matplotlib.pyplot as plt
@@ -35,12 +35,12 @@ plt.show()
 ```
 
 
-![](../.gitbook/assets/matplot/matplot-20.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-20.png)
 
 
 ## 위치 지정하기
 
-![](../.gitbook/assets/matplot/matplot-21.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-21.png)
 
 xlabel(), ylabel() 함수의 labelpad 파라미터는 축 레이블의 여백 (Padding)을 지정합니다.
 
@@ -65,7 +65,7 @@ plt.show()
 ```
 
 
-![](../.gitbook/assets/matplot/matplot-22.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-22.png)
 
 ```
 plt.plot([1, 2, 3, 4], [2, 3, 5, 10], label='Price ($)')
@@ -77,7 +77,7 @@ plt.show()
 ```
 
 
-![](../.gitbook/assets/matplot/matplot-23.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-23.png)
 
 loc 파라미터는 예제에서와 같이 문자열로 지정할 수도 있고, 숫자 코드를 사용할 수도 있습니다.
 
@@ -86,7 +86,7 @@ loc=’lower right’와 같이 지정하면 아래와 같이 오른쪽 아래�
 
 ## 열개수 지정하기
 
-![](../.gitbook/assets/matplot/matplot-24.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-24.png)
 
 
 legend() 함수의 ncol 파라미터는 범례에 표시될 텍스트의 열의 개수를 지정합니다.
@@ -107,4 +107,4 @@ plt.legend(loc='best', ncol=2)    # ncol = 2
 plt.show()
 ```
 
-![](../.gitbook/assets/matplot/matplot-25.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-25.png)

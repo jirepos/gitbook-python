@@ -22,7 +22,7 @@
 
 **Validation Set으로 검증 단계를 추가하여 Overfitting 방지한다.**     
 
-![](../.gitbook/assets/sklearn/regress32.png)
+![](../../.gitbook/assets/pkg/sklearn/regress32.png)
 
 
 그림과 같이 기존 train/test로 구분 되어 있던 데이터 셋을 train에서 train / validation으로 일정 비율 쪼갠 다음에 학습 시에는 train 셋으로 학습 후 중간중간 validation 셋으로 내가 학습한 모델 평가를 해주는 것이다. 
@@ -34,7 +34,7 @@
 아래 그림을 참고하면, iteration이 750을 넘어가는 순간부터 train 셋의 오차율을 계속 하강하고 있으나 validation 셋의 오차율을 점차 증가하는 것을 확인할 수 있다. 
 
 
-![](../.gitbook/assets/sklearn/regress33.png)
+![](../../.gitbook/assets/pkg/sklearn/regress33.png)
 
 
 **출처**[ machinelearningmastery.com]( machinelearningmastery.com) 

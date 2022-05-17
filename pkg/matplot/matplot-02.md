@@ -17,7 +17,7 @@ plot() 함수에 y 값을 리스트 형태로 입력하면  꺾은선 그래프�
 
 ## 기본사용
 
-![](../.gitbook/assets/matplot/matplot-05.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-05.png)
 
 
 ```
@@ -25,7 +25,7 @@ plt.plot([2, 3, 5, 10])
 plt.show()
 ```
 
-![](../.gitbook/assets/matplot/matplot-06.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-06.png)
 
 위 코드는 간단한 그래프를 하나 띄웁니다.
 
@@ -39,7 +39,7 @@ x 값은 기본적으로 [0, 1, 2, 3]이 되어서, 점 (0, 2), (1, 3), (2, 5), 
 ## x, y 값 입력하기
 
 
-![](../.gitbook/assets/matplot/matplot-07.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-07.png)
 
 plot() 함수에 두 개의 리스트를 입력하면 순서대로 x, y 값들로 인식해서
 
@@ -54,12 +54,12 @@ plt.show()
 ```
 
 
-![](../.gitbook/assets/matplot/matplot-08.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-08.png)
 
 
 ## 레이블이 있는 데이터 사용하기
 
-![](../.gitbook/assets/matplot/matplot-09.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-09.png)
 
 
 파이썬 딕셔너리와 같이 레이블이 있는 데이터를 그래프로 나타낼 수 있습니다.
@@ -76,5 +76,5 @@ plt.plot('data_x', 'data_y', data=data_dict)
 plt.show()
 ```
 
-![](../.gitbook/assets/matplot/matplot-10.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-10.png)
 

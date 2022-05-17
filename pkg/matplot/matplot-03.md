@@ -17,7 +17,7 @@ import numpy as np
 
 ## 기본사용
 
-![](../.gitbook/assets/matplot/matplot-11.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-11.png)
 
 
 xlabel(), ylabel() 함수에 문자열을 입력하면, 아래 그림과 같이 각각의 축에 레이블이 표시됩니다.
@@ -32,13 +32,13 @@ plt.show()
 ```
 
 
-![](../.gitbook/assets/matplot/matplot-12.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-12.png)
 
 
 ## 여백지정하기
 
 
-![](../.gitbook/assets/matplot/matplot-13.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-13.png)
 
 
 xlabel(), ylabel() 함수의 labelpad 파라미터는 축 레이블의 여백 (Padding)을 지정합니다.
@@ -56,13 +56,13 @@ plt.show()
 
 
 
-![](../.gitbook/assets/matplot/matplot-14.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-14.png)
 
 
 ## 폰트설정하기
 
 
-![](../.gitbook/assets/matplot/matplot-15.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-15.png)
 
 
 xlabel(), ylabel() 함수의 fontdict 파라미터를 사용하면 축 레이블의 폰트 스타일을 설정할 수 있습니다.
@@ -79,13 +79,13 @@ plt.ylabel('Y-Axis', labelpad=20, fontdict={'family': 'fantasy', 'color': 'deepp
 plt.show()
 ```
 
-![](../.gitbook/assets/matplot/matplot-16.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-16.png)
 
 
 ## 위치 지정하기
 
 
-![](../.gitbook/assets/matplot/matplot-17.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-17.png)
 
 
 
@@ -98,5 +98,5 @@ plt.plot([1, 2, 3, 4], [2, 3, 5, 10])
 plt.show()
 ```
 
-![](../.gitbook/assets/matplot/matplot-18.png)
+![](../../.gitbook/assets/pkg/matplot/matplot-18.png)
 

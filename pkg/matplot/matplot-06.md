@@ -12,7 +12,7 @@ Matplotlib에서 선의 종류를 지정하는 가장 간단한 방법은 포맷
 * Dash-dot
 
 
-![](../.gitbook/assets/matplot2/matplot2-02.png)
+![](../../.gitbook/assets/pkg/matplot2/matplot2-02.png)
 
 ```
 import matplotlib.pyplot as plt
