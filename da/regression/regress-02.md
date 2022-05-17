@@ -53,7 +53,7 @@ Zx = -----
 그럼 상관계수의 크기를 살펴보자. 
 
 
-![](../.gitbook/assets/regress/regress02.png)
+![](../../.gitbook/assets/da/regress/regress02.png)
 
 
 

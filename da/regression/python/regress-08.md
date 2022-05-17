@@ -15,7 +15,7 @@
 
 피어슨 상관 계수는 선형 관계일때만 유의미하고, 아래 그래프처럼 2차식에서는 의미가 없다. 아래 2차식의 피어슨 상관 계수는 0입니다. r=0일 때는 상관관계가 없다고 보지만 아래 2차 식이 실제로 상관관계가 없는 것은 아니다.  피어슨 상관 계수는 선형 관계일 때만 쓴다. 
 
-![](../..//.gitbook/assets/regress/regress19.png)
+![](../../../.gitbook/assets/da/regress/regress19.png)
 
 **최소자승법(OLS : Least-squres Method)**     
 
@@ -76,7 +76,7 @@ plt.ylabel('Work_hours',fontsize=font_size)
 plt.show()
 ```
 
-![](../../.gitbook/assets/regress/regress27.png)
+![](../../../.gitbook/assets/da/regress/regress27.png)
 
 
 
@@ -111,7 +111,7 @@ fit.summary()
 ```
 
 
-![](../../.gitbook/assets/regress/regress20.png)
+![](../../../.gitbook/assets/da/regress/regress20.png)
 
 
 **모형 수식** 
@@ -175,7 +175,7 @@ Y = 26.177 + 3.5702 * X
 회귀식이 얼마나 정확한지를 나타내는 숫자가 결정계수이다. 결정계수가 0에 가까울 수록 "회귀식의 정확도는 매우 낮다"고 할 수 있고 1에 가까울 수록 "회귀식읜 정확도는 매우 높다"고 할 수 있다. 
 
 
-![](../../.gitbook/assets/regress/regress21.png)
+![](../../../.gitbook/assets/da/regress/regress21.png)
 
 
 결정계수에도 한계가 있는데 수치가 어중간할 경우에는 정확도를 판단하기가 애매해진다.  예를들어 0.4가 나올 경우는 판단하기 애매하다. 그래서 회귀식의 정확도가 애매할 경우에 해당 회귀식의 결과를 신뢰할지 여부를 판단해야 하는데 결정계수로 의사결정을 못한다. 

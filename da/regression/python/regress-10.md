@@ -12,7 +12,7 @@
 [여기](https://github.com/Codecademy/datasets/blob/master/streeteasy/manhattan.csv)  
 
 
-![](../../.gitbook/assets/regress/regress31.png)
+![](../../../.gitbook/assets/da/regress/regress31.png)
 
 
 맨 왼쪽의 rent가 임대료이다. 
@@ -26,7 +26,7 @@ df = pd.read_csv('drive/MyDrive/data/manhattan.csv') ## 데이터 불러오기
 df.head()
 ```
 
-![](../../.gitbook/assets/regress/regress32.png)
+![](../../../.gitbook/assets/da/regress/regress32.png)
 
 
 
@@ -90,7 +90,7 @@ plt.title("MULTIPLE LINEAR REGRESSION")
 plt.show()
 ```
 
-![](../../.gitbook/assets/regress/regress33.png)
+![](../../../.gitbook/assets/da/regress/regress33.png)
 
 임대료가 낮은 항목들은 꽤 가깝게 맞추는데, 높은 임대료에서는 오차가 좀 있는 걸 알 수 있다. 그래도 어쨌든 얼추 잘 나오는 것 같다.
 
@@ -125,7 +125,7 @@ plt.scatter(df[['size_sqft']], df[['rent']], alpha=0.4)
 plt.show()
 ```
 
-![](../../.gitbook/assets/regress/regress34.png)
+![](../../../.gitbook/assets/da/regress/regress34.png)
 
 ```python 
 # 주택이 얼마나 오래 전에 지어졌는지 'building_age_yrs'와 가격 'rent'
@@ -133,7 +133,7 @@ plt.scatter(df[['building_age_yrs']], df[['rent']], alpha=0.4)
 plt.show()
 ```
 
-![](../../.gitbook/assets/regress/regress35.png)
+![](../../../.gitbook/assets/da/regress/regress35.png)
 
 
 일단 이 두 개의 그림만 봐도 주택 면적은 상관이 있는데 얼마나 오래된 건물인지는 딱히 상관이 나타나지 않는 걸 알 수 있다.

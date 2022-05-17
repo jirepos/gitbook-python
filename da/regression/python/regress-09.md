@@ -51,7 +51,7 @@ plt.xlabel('Height', fontsize=font_size)
 plt.ylabel('Mass',
 ```
 
-![](../../.gitbook/assets/regress/regress36.png)
+![](../../../.gitbook/assets/da/regress/regress36.png)
 
 
 ## 회귀직선 그리기

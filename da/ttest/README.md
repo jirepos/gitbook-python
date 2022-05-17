@@ -27,7 +27,7 @@ Student의 마지막 글자 't'를 땨서 t-test라고한다.
 팸플(표본)과 모집단은 어떻게 다른가? 
 
 
-![](../.gitbook/assets/ttest/ttest01.png)
+![](../../.gitbook/assets/da/ttest/ttest01.png)
 
 
 무엇을 가지고 비교할까?  
@@ -199,7 +199,7 @@ t-test를 위한 t-값 & t-분포
 
  
 
-![](../.gitbook/assets/ttest/ttest02.png)
+![](../../.gitbook/assets/da/ttest/ttest02.png)
 
 표본의 표준편차를 루트 n(표본의 갯수)로 나눈 것이다. 
 
@@ -253,7 +253,7 @@ t(30)
 
 
 
-![](../.gitbook/assets/ttest/ttest03.png)
+![](../../.gitbook/assets/da/ttest/ttest03.png)
 
 
 
@@ -269,7 +269,7 @@ t(30)
 t-table에서 찾으면 1.984가 나오는데 이것을 critical value(c.v.)라고 한다. 
 
 
-![](../.gitbook/assets/ttest/ttest04.png)
+![](../../.gitbook/assets/da/ttest/ttest04.png)
 
 
 1.996이 1.984보다 크므로 우연히 아니다. 즉, 95%에 들어가지 않는다. 
@@ -306,13 +306,13 @@ t-table에서 찾으면 1.984가 나오는데 이것을 critical value(c.v.)라�
 
 ### 각 방식의 공식 
 앞에서 설명한 공식은 사실은 one-sample test 공식이다. 설명을 간단히 하기 위해서 사용했다. 
-![](../.gitbook/assets/ttest/ttest05.png)
+![](../../.gitbook/assets/da/ttest/ttest05.png)
 
 
-![](../.gitbook/assets/ttest/ttest06.png)
+![](../../.gitbook/assets/da/ttest/ttest06.png)
 
 one-sample test와 동일한 공식을 사용한다.  
-![](../.gitbook/assets/ttest/ttest07.png)
+![](../../.gitbook/assets/da/ttest/ttest07.png)
 
 
 공식을 외워야 할까요? 

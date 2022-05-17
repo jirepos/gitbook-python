@@ -19,6 +19,7 @@
     * [파이썬에서 한글](python/devops/python-encoding.md)
     * [Java에서 Python 사용하기](python/devops/java-python.md)
     * [Google Colab](python/devops/google-colab.md)  
+
 * [Python Package](pkg/README.md)
   * [Numpy](pkg/numpy/README.md) 
     * [Numpy 정리](pkg/numpy/numpy-01-00.md)
@@ -34,6 +35,21 @@
     * [DataFrame 합치기](pkg/pandas/pandas-03.md)
     * [Rolling](pkg/pandas/pandas-04-rolling.md)
     * [DataFrame 조건에 맞는 데이터 추출](pkg/pandas/pandas-05.md)
+  * [Scipy](scipy/README.md)
+    * [기본](scipy/scipy-01.md)
+
+
+
+
+* [Matplotlib](matplot/README.md)
+  * [시작하기](matplot/matplot-00.md)
+  * [Basic](matplot/matplot-01.md)
+  * [숫자입력](matplot/matplot-02.md)
+  * [축레이블설정](matplot/matplot-03.md)
+  * [범례](matplot/matplot-04.md)
+* [Sklearn](sklearn/README.md)
+  * [사이킷런 데이터 셋](sklearn/sklearn-00.md)
+  * [학습과 테스트 셋트 분리](sklearn/sklearn-01-split.md)  
 
 * [데이터분석](da/README.md)    
   * [수학기초](da/math-basic/README.md)
@@ -56,31 +72,24 @@
     * [정규분포 기초 (2)](da/normal/normal-basic-02.md)   
     * [정규분포 기초 (3)](da/normal/normal-basic-03.md)   
     * [정규분포 기초 (4)](da/normal/normal-basic-04.md) 
+  * [T검정](da/ttest/README.md)  
+  * [회귀분석](regression/README.md)
+    * [변수간의 관계](regression/regress-01-variable.md)
+    * [선형관계 정량화](regression/regress-02.md)
+    * [회귀분석](regression/regress-03.md)
+    * [회귀계수의 추정](regression/regress-04.md)
+    * [다중 회귀분석](regression/regress-05.md)
+    * [가설검정](regression/regress-07.md)
+    * [Python 회귀분석](regression/python/README.md)
+      * [statsmodel 단순회귀분석](regression/python/regress-08.md)
+      * [sklearn 단순회귀분석](regression/python/regress-09.md)
+      * [sklearn 다중회귀분석](regression//python/regress-10.md)  
 
-* [Scipy](scipy/README.md)
-  * [기본](scipy/scipy-01.md)
-* [Matplotlib](matplot/README.md)
-  * [시작하기](matplot/matplot-00.md)
-  * [Basic](matplot/matplot-01.md)
-  * [숫자입력](matplot/matplot-02.md)
-  * [축레이블설정](matplot/matplot-03.md)
-  * [범례](matplot/matplot-04.md)
-* [Sklearn](sklearn/README.md)
-  * [사이킷런 데이터 셋](sklearn/sklearn-00.md)
-  * [학습과 테스트 셋트 분리](sklearn/sklearn-01-split.md)  
 
 
-    
-* [T검정](ttest/README.md)  
-* [회귀분석](regression/README.md)
-  * [변수간의 관계](regression/regress-01-variable.md)
-  * [선형관계 정량화](regression/regress-02.md)
-  * [회귀분석](regression/regress-03.md)
-  * [회귀계수의 추정](regression/regress-04.md)
-  * [다중 회귀분석](regression/regress-05.md)
-  * [가설검정](regression/regress-07.md)
-  * [Python 회귀분석](regression/python/README.md)
-    * [statsmodel 단순회귀분석](regression/python/regress-08.md)
-    * [sklearn 단순회귀분석](regression/python/regress-09.md)
-    * [sklearn 다중회귀분석](regression//python/regress-10.md)  
+
+
+
+
+
 * [Machine Learning](ml/README.md)  

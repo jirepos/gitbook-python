@@ -8,7 +8,7 @@ Best Fitting Line은 어떻게 찾을까? 학자들이 생각한 방법이 **최
 
 
 
-![](../.gitbook/assets/regress/regress08.png)
+![](../../.gitbook/assets/da/regress/regress08.png)
 
 
 
@@ -21,7 +21,7 @@ Best Fitting Line은 어떻게 찾을까? 학자들이 생각한 방법이 **최
 이것을 어떻게 구하나? 미분을 사용해서 구하는데 식은 다음과 같다. 
 
 
-![](../.gitbook/assets/regress/regress09.png)
+![](../../.gitbook/assets/da/regress/regress09.png)
 
 
 

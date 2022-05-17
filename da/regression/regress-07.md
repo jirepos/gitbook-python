@@ -107,7 +107,7 @@ X바가 m0와 멀어지먼 Z 값은 0에서 멀어진 값을 갖게 된다.
 
 
 
-![](../.gitbook/assets/regress/regress22.png)
+![](../../.gitbook/assets/da/regress/regress22.png)
 
 
 Z 값이 1.96 보다 커질 확률은 0.025 밖에는 안된다. 
@@ -195,7 +195,7 @@ Z  = 1.28
 
 
 
-![](../.gitbook/assets/regress/regress23.png)
+![](../../.gitbook/assets/da/regress/regress23.png)
 
 
 
@@ -268,7 +268,7 @@ Z = X바 - m0
 ````
 
 
-![](../.gitbook/assets/regress/regress24.png)
+![](../../.gitbook/assets/da/regress/regress24.png)
 
 
 멀리 떨어져 있다는 말은 m > m0인 경우 Z 값이 
@@ -280,7 +280,7 @@ Z = X바 - m0
 
 유의 수준 1%로 본다면 기각역이 2.33 정도 된다. 
 
-![](../.gitbook/assets/regress/regress25.png)
+![](../../.gitbook/assets/da/regress/regress25.png)
 
 
 ### 예제 
@@ -338,7 +338,7 @@ H1은 채택하게 된다.
 
 
 
-![](../.gitbook/assets/regress/regress26.png)
+![](../../.gitbook/assets/da/regress/regress26.png)
 
 따라서 심장마비 환자들의 평균 콜레스테롤의 수치는 220보다 크다가 맞다. 따라서 
 심장마비 가능성이 높아진다. 

@@ -42,7 +42,7 @@
 
 이 표를 그래프로 그리면 다음과 같다. 
 
-![](../.gitbook/assets/regress/regress01.png)
+![](../../.gitbook/assets/da/regress/regress01.png)
 
 
 가로(X축)가 학업동기이고 세로(Y축)가 학업성취도이다. 
