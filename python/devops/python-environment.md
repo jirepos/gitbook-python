@@ -4,21 +4,24 @@
 
 설치 위치를 C:\Anaconda로 설정하여 설치한다.
 
-![](<.gitbook/assets/image (14).png>)
+![](../../.gitbook/assets/python/devops/image-14.png)
 
 Add Anaconda 3 to ....는 체크하지 않는다.
 
-![](<.gitbook/assets/image (16) (1).png>)
+![](../../.gitbook/assets/python/devops/image161.png)
 
 > 이렇게 하면 conada 명령어를 찾지 못한다. 환경 변수에 잡혀 있지 않기 때문이다. cmd 창이나 powershell 창에서 conda 명령을 실행하려면 C:\Anaconda\condabin 폴더를 시스템 PATH 변수에 추가해야 한다.
 
 PowerShell 창에서 conda를 사용하려면 Windows 시작 메뉴에서 Anaconda Powershell Prompt 클릭하여 실행한다.
 
-![](<.gitbook/assets/image (15).png>)
+![](../../.gitbook/assets/python/devops/image15.png)
 
 conda 버전 확인한다.
 
-![](<.gitbook/assets/image (8) (1).png>)
+![](../../.gitbook/assets/python/devops/image81.png)
+
+
+
 
 ## Anaconda에서 Python 설치
 
@@ -34,28 +37,28 @@ conda create –name test python=3.9.0
 
 가상환경이 생성되면 다음과 같은 내용이 출력되는 것을 볼 수 있다.
 
-![](<.gitbook/assets/image (7) (1).png>)
+![](../../.gitbook/assets/python/devops/image71.png)
 
 ## VSCode에서 Python Extension 설치
 
 VSCode를 실행하여 Python extenstion을 설치한다.
 
-![](<.gitbook/assets/image (6) (1).png>)
+![](../../.gitbook/assets/python/devops/image61.png)
 
-\
+
 Terminal을 연다. 아래와 같은 경고 창이 뜨면 무시한다.
 
-![](<.gitbook/assets/image (9) (1).png>)
+![](../../.gitbook/assets/python/devops/image91.png)
 
 PowerShell이 base 환경으로 기본적으로 설정되는 것을 볼 수 있다.
 
-![](<.gitbook/assets/image (12).png>)
+![](../.../.gitbook/assets/image12.png)
 
 **가상환경 선택**
 
 Ctrl+Shift+P 입력하고 select interprete를 입력한 다음에 생성한 가상환경의 python을 선택한다.
 
-![](<.gitbook/assets/image (3).png>)
+![](../../.gitbook/assets/python/devops/image333.png)
 
 ## VSCode의 Terminal에서 가상환경 선택
 
@@ -233,7 +236,7 @@ Anaconda3/
 /share
 ```
 
-**envs**\
+**envs**
 가상환경을 만들면 envs 디렉토리 아래에 생성된다. 다음과 같이 가상환경을 생성했다고 가정하자.
 
 ```shell
@@ -347,19 +350,19 @@ print("hello Python")
 
 숫자 왼쪽 부분을 클릭하여 break point 를 설정한다.
 
-![](<.gitbook/assets/image (11).png>)
+![](../../.gitbook/assets/python/devops/image111.png)
 
 ### debug 실행(F5)
 
 F5를 클릭하여 DEBUG MODE로 실행한다.
 
-![](<.gitbook/assets/image (10) (1).png>)
+![](../../.gitbook/assets/python/devops/image101.png)
+
 
 Break Point가 설정된 곳에서 실행이 멈춘 것을 확인할 수 있다.
 
-\\
 
-![](<.gitbook/assets/image (1).png>)
+![](../../.gitbook/assets/python/devops/image0001.png)
 
 ## VSCode에서 Python 소스 디렉토리 만들기
 
@@ -421,7 +424,7 @@ build-in modules는 파이썬에서 제공하는 공식 라이브러리들이다
 
 하지만 위의 순서를 따라 파이썬이 모두 찾아도 찾을 수 없는 모듈과 패키지가 있을 수 있는데, 바로 직접 개발한 로컬 패키지이다. 이런 경우 import 경로를 직접 입력해 주어야 한다.
 
-**절대경로**\
+**절대경로**
 절대 경로는 import하는 파일이나 경로에 상관없이 항상 동일한 경로로 작성한다. project>package1>module1.py라는 경로에 모듈이 위치하고 있다면 프로젝트 루트 아래의 디렉토리부터 시작한다.
 
 ```python
@@ -430,7 +433,7 @@ from package1.module1 import function1
 
 현재 디렉토리는 default로 sys.path에 포함된다. 절대 경로는 현재 디렉토리부터 경로를 시작하게 된다.
 
-**상대경로**\
+**상대경로**
 상대 경로는 현재 import를 하는 위치를 기준으로 경로를 정의한다. (이 내용은 보완할 예정임)
 
 ### PYTHONPATH 설정하기
@@ -441,11 +444,11 @@ from package1.module1 import function1
 
 VSCode에서 Run and Devug 버튼을 클릭한다. 또는 Ctrl + Shift + D를 입력한다.
 
-![](.gitbook/assets/image.png)
+![](../../.gitbook/assets/python/devops/image000.png)
 
 create a lunch.json file 링크를 클릭한다. Python File을 클릭한다.
 
-![](<.gitbook/assets/image (2) (1).png>)
+![](../../.gitbook/assets/python/devops/image200.png)
 
 그러면, 프로젝트 루트 아래 .vscode 디렉토리 아래에 lunch.json 파일이 생성된다.
 

@@ -49,7 +49,7 @@ print(a1)
 # [ 1  2  3  4  5  6  7  8  9 10 11 12]
 ```
 
-![](../.gitbook/assets/numpy/numpy02.png)
+![](../../.gitbook/assets/pkg/numpy/numpy02.png)
 
 
 # reshape
@@ -63,7 +63,7 @@ print(a1_2d)
 #   [ 9 10 11 12]]
 ```   
 
-![](../.gitbook/assets/numpy/numpy03.png)
+![](../../.gitbook/assets/pkg/numpy/numpy03.png)
 
 
 

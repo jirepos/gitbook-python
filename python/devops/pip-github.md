@@ -28,7 +28,7 @@ Visual C++14를 설치하자.
 
 다음의 URL로 간다. https://visualstudio.microsoft.com/ko/vs/older-downloads/
 
-![](<.gitbook/assets/image (13).png>)
+![](../../.gitbook/assets/python/devops/pip01.png)
 
 Microsoft Build Tools 2015 업데이트 3를 다운로드 받아 설치한다.
 

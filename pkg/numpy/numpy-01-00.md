@@ -7,7 +7,7 @@ NumPy는 같은 유형의 "항목" 모음을 설명 하는 N차원 배열 유형
 [Numpy 공식 홈페이지](https://numpy.org/doc/stable/reference/index.html#reference)
 
 
-
+../../.gitbook/assets/pkg/numpy/
 
 배열은 1차원, 2차원, 3차원 배열 이렇게 있는데, 배열에는 축이라는 개념이 있다. 
 
@@ -25,7 +25,7 @@ numpy에서 배열은 동일한 타입의 값들을 가지며, **배열의 차�
 * shape 각 차원의 크긱를 튜플로 표시
 
 
-![](../.gitbook/assets/numpy/numpy00.png)
+![](../../.gitbook/assets/pkg/numpy/numpy00.png)
 출처: https://predictivehacks.com/tips-about-numpy-arrays/
 
 
@@ -49,7 +49,7 @@ NumPy 배열을 만드는 한 가지 방법은 Python 목록을 변환하는 것
 a = np.array( [ 1.,2.,3. ])
 ```
 
-![](../.gitbook/assets/numpy/numpy04.png)
+![](../../.gitbook/assets/pkg/numpy/numpy04.png)
 
 
 NumPy 배열은 Python 목록과 같은 방식으로 증가할 수 없다. 빠른 추가를 용이하게 하기 위해 어레이 끝에 공간이 예약되어 있지 않다.
@@ -70,7 +70,7 @@ zeros()는 해당 배열에 모두 0을 집어 넣는다.
 b = np.zeros(3, int) 
 ```
 
-![](../.gitbook/assets/numpy/numpy05.png)
+![](../../.gitbook/assets/pkg/numpy/numpy05.png)
 
 모양 및 요소 유형별로 기존 배열과 일치하는 빈 배열을 만들어야 하는 경우가 많다.
 
@@ -79,13 +79,13 @@ c = np.zeros_like(a)
 ```
 
 
-![](../.gitbook/assets/numpy/numpy06.png)
+![](../../.gitbook/assets/pkg/numpy/numpy06.png)
 
 
 사실, 상수 값으로 채워진 배열을 생성하는 모든 함수에는 _like 대응하는 함수가 있다.
 
 
-![](../.gitbook/assets/numpy/numpy07.png)
+![](../../.gitbook/assets/pkg/numpy/numpy07.png)
 
 
 #### monotonic sequence로 초기화 
@@ -94,7 +94,7 @@ NumPy에서는 monotonic sequence로 array를 초기화 하는 두 가지 functi
 * arange()
 * linspace() 
 
-![](../.gitbook/assets/numpy/numpy08.png)
+![](../../.gitbook/assets/pkg/numpy/numpy08.png)
 
 
 
@@ -114,7 +114,7 @@ step이 생략되면 default는 1이다.
 그러나 arange는 float를 처리하는데 좋지는 않다. 
 
 
-![](../.gitbook/assets/numpy/numpy09.png)
+![](../../.gitbook/assets/pkg/numpy/numpy09.png)
 
 
 
@@ -127,7 +127,7 @@ step이 생략되면 default는 1이다.
 종종 테스트를 위해 random하게 array를 생성할 필요가 있다. 
 
 
-![](../.gitbook/assets/numpy/numpy10.png)
+![](../../.gitbook/assets/pkg/numpy/numpy10.png)
 
 
 
@@ -139,7 +139,7 @@ step이 생략되면 default는 1이다.
 
 
 
-![](../.gitbook/assets/numpy/numpy11.png)
+![](../../.gitbook/assets/pkg/numpy/numpy11.png)
 
 
 fancy-indexing을 제외하고 views라고 부른다. 
@@ -147,44 +147,44 @@ fancy-indexing을 제외하고 views라고 부른다.
 배열의 복사는 NumPy에서는 copy() 함수를 사용한다. 
 
 
-![](../.gitbook/assets/numpy/numpy12.png)
+![](../../.gitbook/assets/pkg/numpy/numpy12.png)
 
 또한 이러한 할당은 배열의 크기를 변경해서는 안 되므로 다음과 같은 트릭이 있다.
 
 
-![](../.gitbook/assets/numpy/numpy13.png)
+![](../../.gitbook/assets/pkg/numpy/numpy13.png)
 
 
 NumPy 배열에서 데이터를 가져오는 또 다른 매우 유용한 방법은 모든 종류의 논리 연산자를 사용할 수 있는 부울 인덱싱이다. 
 
 
-![](../.gitbook/assets/numpy/numpy14.png)
+![](../../.gitbook/assets/pkg/numpy/numpy14.png)
 
 
 위에서 볼 수 있듯이 부울 인덱싱도 쓰기 가능하다.  전용 기능으로 분리된 두 가지 일반적인 사용 사례: 과도하게 오버로드된 np.where와 np.clip 
 
 
-![](../.gitbook/assets/numpy/numpy15.png)
+![](../../.gitbook/assets/pkg/numpy/numpy15.png)
 
 
 ### Vector operations
 
 산술은 NumPy 속도가 가장 빛나는 곳 중 하나이다. 벡터 연산자는 C++ 수준으로 이동하여 느린 Python 루프 비용을 피할 수 있다. NumPy를 사용하면 일반 숫자처럼 전체 배열을 조작할 수 있다.
 
-![](../.gitbook/assets/numpy/numpy16.png)
+![](../../.gitbook/assets/pkg/numpy/numpy16.png)
 
 
 더하거나 뺄 때 int가 float로 승격되는 것과 같은 방식으로 스칼라는 배열로 승격(일명 브로드캐스트)된다.
 
 
-![](../.gitbook/assets/numpy/numpy17.png)
+![](../../.gitbook/assets/pkg/numpy/numpy17.png)
 
 #### 수학 연산 
 
 대부분의 수학 함수에는 벡터를 처리할 수 있는 NumPy 대응 기능이 있다. 
 
 
-![](../.gitbook/assets/numpy/numpy18.png)
+![](../../.gitbook/assets/pkg/numpy/numpy18.png)
 
 ```python
 # 제곱 계산
@@ -206,13 +206,13 @@ print(r)
 
 #### 스칼라 곱 
 스칼라 곱에는 자체 연산자가 있다. 
-![](../.gitbook/assets/numpy/numpy19.png)
+![](../../.gitbook/assets/pkg/numpy/numpy19.png)
 
 
 
 #### 올림, 내림 
 배열은 전체적으로 반올림될 수 있다. 
-![](../.gitbook/assets/numpy/numpy20.png)
+![](../../.gitbook/assets/pkg/numpy/numpy20.png)
 
 
 ```python
@@ -231,7 +231,7 @@ print(r)
 
 #### 통계 
 NumPy는 기본 통계도 수행할 수 있다. 
-![](../.gitbook/assets/numpy/numpy21.png)
+![](../../.gitbook/assets/pkg/numpy/numpy21.png)
 
 
 
@@ -280,7 +280,7 @@ print(r)
 
 
 
-![](../.gitbook/assets/numpy/numpy22.png)
+![](../../.gitbook/assets/pkg/numpy/numpy22.png)
 
 
 Bessel 보정의 효과는 표본 크기가 증가함에 따라 빠르게 감소한다. 또한 만병통치약이 아니다. 예를 들어 정규 분포의 경우 ddof=1.5가 더 좋다. 
@@ -290,7 +290,7 @@ Bessel 보정의 효과는 표본 크기가 증가함에 따라 빠르게 감소
 
 소팅 기능은 Python 대응 기능보다 덜 유용하다. 
 
-![](../.gitbook/assets/numpy/numpy23.png)
+![](../../.gitbook/assets/pkg/numpy/numpy23.png)
 
 
 
@@ -364,14 +364,14 @@ print(a.tolist().index(1))
 ### 초기화 
 행렬 초기화 구문은 벡터와 유사하다. 
 
-![](../.gitbook/assets/numpy2/numpy200.png)
+![](../../.gitbook/assets/numpy2/numpy200.png)
 
 
 
 ### 난수 초기화 
 랜덤 행렬 생성도 벡터 생성과 유사하다. 
 
-![](../.gitbook/assets/numpy2/numpy201.png)
+![](../../.gitbook/assets/numpy2/numpy201.png)
 
 
 
@@ -446,7 +446,7 @@ array([2.30519791, 7.88569516, 2.15921334, 4.47757127, 2.12956828,
 2차원 인덱싱 구문은 중첩 목록의 구문보다 더 편리하다. 
 
 
-![](../.gitbook/assets/numpy2/numpy202.png)
+![](../../.gitbook/assets/numpy2/numpy202.png)
 
 
 (3,4) 배열을 하나 만든다. 
@@ -490,7 +490,7 @@ axis 인수의 값은 사실상 해당 인덱스의 번호입니다.
 
 
 
-![](../.gitbook/assets/numpy2/numpy203.png)
+![](../../.gitbook/assets/numpy2/numpy203.png)
 
 
 
@@ -531,7 +531,7 @@ array([ 6, 15])
 요소별로 작동하는 일반 연산자(예: +,-,*,/,// 및 **) 외에도 행렬 곱을 계산하는 @ 연산자가 있다.
 
 
-![](../.gitbook/assets/numpy2/numpy204.png)
+![](../../.gitbook/assets/numpy2/numpy204.png)
 
 ```python 
 a = np.array( [ [1,2],[3,4]])
@@ -606,7 +606,7 @@ array([[ 1,  2],
 
 NumPy는 벡터와 행렬, 심지어 두 벡터 사이에서도 혼합 연산을 허용한다. 
 
-![](../.gitbook/assets/numpy2/numpy205.png)
+![](../../.gitbook/assets/numpy2/numpy205.png)
 
 ```python 
 a = np.array( [ [1,2,3], [4,5,6], [7,8,9]])
@@ -670,12 +670,12 @@ array([[1, 2, 3],
 Note that in the last example it is a symmetric per-element multiplication. To calculate the outer product using an asymmetric linear algebra matrix multiplication the order of the operands should be reversed:
 
 
-![](../.gitbook/assets/numpy2/numpy206.png)
+![](../../.gitbook/assets/numpy2/numpy206.png)
 
 
 ### Row vectors and column vectors
 
-![](../.gitbook/assets/numpy2/numpy210.png)
+![](../../.gitbook/assets/numpy2/numpy210.png)
 
 2D 배열에서 a[:,j]는  2차원 배열 a의 j번째 컬럼을 의미하고 이것은 1D 어래이이다. 
 
@@ -759,7 +759,7 @@ array([3, 4, 5, 6, 7, 8, 9])
 ```
 
 
-![](../.gitbook/assets/numpy2/numpy211.png)
+![](../../.gitbook/assets/numpy2/numpy211.png)
 
 
 ```python
@@ -803,13 +803,13 @@ array([[1, 2, 3],
 
 
 NumPy에는 1D 배열, 2D 행 벡터 및 2D 열 벡터의 총 세 가지 유형의 벡터가 있다. 다음은 이들 간의 명시적 변환 다이어그램이다. 
-![](../.gitbook/assets/numpy2/numpy212.png)
+![](../../.gitbook/assets/numpy2/numpy212.png)
 
 
 ### Matrix manipulations 
 배열을 합치는 두 가지 주요 함수들이 있다. 
 
-![](../.gitbook/assets/numpy2/numpy213.png)
+![](../../.gitbook/assets/numpy2/numpy213.png)
 
 
 ```python 
@@ -859,14 +859,14 @@ array([[ 1,  2,  3,  4],
        [ 5,  6,  7,  8]])
 ```
 
-![](../.gitbook/assets/numpy2/numpy214.png)
+![](../../.gitbook/assets/numpy2/numpy214.png)
 
 
 
 
 stacking과는 반대로 split는 분리한다. 
 
-![](../.gitbook/assets/numpy2/numpy215.png)
+![](../../.gitbook/assets/numpy2/numpy215.png)
 
 
 y 배열은 다음과 같다. 

@@ -19,7 +19,7 @@ Series는 다양한 자료형을 담을 수 있는 1차원의 어레이이며, �
 
 Series는 Index라고 하는 레이블을 가진다. 
 
-![](../.gitbook/assets/pandas/pandas01.png)
+![](../../.gitbook/assets/pkg/pandas/pandas01.png)
 
 
 
@@ -33,4 +33,4 @@ DataFrame은 행과 열을 갖는 2차원의 자료형이다.  여러 개의 Ser
 
 그림과 같이 DataFrame은 Index와 Key, 그리고 Value들로 구성된다. 
 
-![](../.gitbook/assets/pandas/pandas02.png)
+![](../../.gitbook/assets/pkg/pandas/pandas02.png)

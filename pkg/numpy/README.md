@@ -14,7 +14,7 @@ Vector는 행렬과 비슷하게 생겼지만 다른 점은 열(column)이 1개�
 Matrix와 Vector의 정의를 알았으니 이제 더하는 방법을 알아봅니다. 두개의 Matrix를 더하는 것은 같은 자리의 숫자를 더해서 새로운 Matrix를 만들어 내는 것입니다. 아래 그림에서 3x2 Matrix+ 3x2 Matrix를 하면 같은 사이즈를 가지는 3x2 Matrix가 생성된다는 것을 보여주고 있습니다.
 
 
-![](../.gitbook/assets/numpy2/numpy208.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy208.png)
 
 
 
@@ -24,12 +24,12 @@ Matrix와 Vector를 곱하면 어떻게 될까요 각각 크기를 가지고 있
 결과 값을 차례대로 Vector 형식으로 적어주면 m개의 크기를 갖는 결과 Vector가 생성이 됩니다. 이와 같이 연산이 되기에 Matrix의 가로 크기와 Vector의 세로 크기가 같아야 하겠습니다. 그리고 그 결과는 Matrix 의 세로 크기와 같은 크기를 갖는 Vector로 만들어집니다.
 
 
-![](../.gitbook/assets/numpy2/numpy207.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy207.png)
 
 **Matrix x Matrix (Matrix 곱하기)**     
 Matrix 끼리의 곱셈입니다. column만 늘어나는 것이고 연산은 동일합니다. 아래 그림은 m x n Matrix와 n x o Matrix를 곱하면 m x o Matrix가 결과가 된다는 것을 이야기 합니다.
 
 
-![](../.gitbook/assets/numpy2/numpy209.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy209.png)
 
 [매트릭스와 벡터 계산하기](https://daeson.tistory.com/168)     

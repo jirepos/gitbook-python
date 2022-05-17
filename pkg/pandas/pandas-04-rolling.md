@@ -185,7 +185,7 @@ Name: Attendance, dtype: float64
 ```
 
 
-![](../.gitbook/assets/pandas/pandas04.png)
+![](../../.gitbook/assets/pkg/pandas/pandas04.png)
 
 
 

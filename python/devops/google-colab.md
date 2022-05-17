@@ -15,34 +15,34 @@ Colaboratory(줄여서 'Colab'이라고 함)을 통해 브라우저 내에서 Py
 
 새로만들기 > 연결할 앱 더보기'를 선택한다 .
 
-![](../.gitbook/assets/devops/image18.png)
+![](../../.gitbook/assets/python/devops/image18.png)
 
 
 colab 입력하면 Colaboratory 가 보인다.
 
-![](../.gitbook/assets/devops/image7.png)
+![](../../.gitbook/assets/python/devops/image7.png)
 
 
 클릭한다. 설치를 클릭한다.
 
-![](../.gitbook/assets/devops/image06.png)
+![](../../.gitbook/assets/python/devops/image06.png)
 
 앱이 설치되고, Google Drive에 연결된다.
 
-![](../.gitbook/assets/devops/image19.png)
+![](../../.gitbook/assets/python/devops/image19.png)
 
 새로 만들기
 
-![](../.gitbook/assets/devops/image02.png)
+![](../../.gitbook/assets/python/devops/image02.png)
 
 
 Google Colaboratory 선택
 
-![](../.gitbook/assets/devops/image17.png)
+![](../../.gitbook/assets/python/devops/image17.png)
 
 Untitled0.ipynb가 생성된다.
 
-![](../.gitbook/assets/devops/image16.png)
+![](../../.gitbook/assets/python/devops/image16.png)
 
 
 텍스트를 입력하고 저장해 본다.
@@ -68,23 +68,23 @@ Jupyter와 비슷하지만 더 나은 기능을 제공하는 colab note 외에 �
 colab 화면에서 맨 왼쪽에 보면 파일 아이콘이 있다. 이것을 클릭한다.
 
 
-![](../.gitbook/assets/devops/image09.png)
+![](../../.gitbook/assets/python/devops/image09.png)
 
 
 이것을 클릭하면 다음과 같이 화면이 보여진다. 여기서 드라이브 마운트 아이콘을 클릭한다.
 
 
-![](../.gitbook/assets/devops/image20.png)
+![](../../.gitbook/assets/python/devops/image20.png)
 
 
 엑세스 허용 팝업이 표시된다. Google Drive에 연결을 클릭한다.
 
 
-![](../.gitbook/assets/devops/image10.png)
+![](../../.gitbook/assets/python/devops/image10.png)
 
 drive/MyDrive 아래에 자신의 구글 드라이브가 마운트 된다.
 
-![](../.gitbook/assets/devops/image08.png)
+![](../../.gitbook/assets/python/devops/image08.png)
 
 
 
