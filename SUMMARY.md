@@ -84,3 +84,4 @@
       * [sklearn 다중회귀분석](da/regression//python/regress-10.md)  
 
 * [Machine Learning](ml/README.md)  
+  * [Machine Learning 용어](ml/ml-01-glossary.md)  
