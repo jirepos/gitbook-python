@@ -34,7 +34,7 @@
 
 
 
-![](../.gitbook/assets/basic/math07.png)
+![](../../.gitbook/assets/da/basic/math07.png)
 
 
 계급은 4개
@@ -53,7 +53,7 @@ https://mathbang.net/71
 
 
 
-![](../.gitbook/assets/basic/math08.png)
+![](../../.gitbook/assets/da/basic/math08.png)
 
 
 정확한 평균을 구할 수는 없지만 대략적인 평규을 구할 수 있다. 
@@ -67,7 +67,7 @@ https://mathbang.net/71
 
 
 
-![](../.gitbook/assets/basic/math09.png)
+![](../../.gitbook/assets/da/basic/math09.png)
 
 
 ```
@@ -82,5 +82,5 @@ https://mathbang.net/119
 
 
 
-![](../.gitbook/assets/basic/math10.png)
+![](../../.gitbook/assets/da/basic/math10.png)
 

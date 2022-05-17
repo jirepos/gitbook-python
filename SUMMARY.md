@@ -34,6 +34,17 @@
     * [DataFrame 합치기](pkg/pandas/pandas-03.md)
     * [Rolling](pkg/pandas/pandas-04-rolling.md)
     * [DataFrame 조건에 맞는 데이터 추출](pkg/pandas/pandas-05.md)
+
+* [데이터분석](da/README.md)    
+  * [수학기초](da/math-basic/README.md)
+    * [곱셈공식](da/basic/math-multi-rule.md)
+    * [다항식](da/basic/math-polynomial.md)
+    * [도수분포표](da/basic/math-frequency-table.md)
+    * [지수](da/basic/math-exp.md)
+    * [거듭제곱근](da/basic/math-sqr.md)  
+
+
+    
 * [Scipy](scipy/README.md)
   * [기본](scipy/scipy-01.md)
 * [Matplotlib](matplot/README.md)
@@ -45,12 +56,7 @@
 * [Sklearn](sklearn/README.md)
   * [사이킷런 데이터 셋](sklearn/sklearn-00.md)
   * [학습과 테스트 셋트 분리](sklearn/sklearn-01-split.md)  
-* [수학기초](./math-basic/README.md)
-  * [곱셈공식](basic/math-multi-rule.md)
-  * [다항식](basic/math-polynomial.md)
-  * [도수분포표](basic/math-frequency-table.md)
-  * [지수](basic/math-exp.md)
-  * [거듭제곱근](basic/math-sqr.md)  
+
 * [평균](avg/README.md) 
   * [분산,표준편차](avg/avg-variance.md)
   * [기하평균,조화평균](avg/avg-geo.md)  
