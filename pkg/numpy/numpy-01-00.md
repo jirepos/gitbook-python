@@ -7,7 +7,6 @@ NumPy는 같은 유형의 "항목" 모음을 설명 하는 N차원 배열 유형
 [Numpy 공식 홈페이지](https://numpy.org/doc/stable/reference/index.html#reference)
 
 
-../../.gitbook/assets/pkg/numpy/
 
 배열은 1차원, 2차원, 3차원 배열 이렇게 있는데, 배열에는 축이라는 개념이 있다. 
 
@@ -364,14 +363,14 @@ print(a.tolist().index(1))
 ### 초기화 
 행렬 초기화 구문은 벡터와 유사하다. 
 
-![](../../.gitbook/assets/numpy2/numpy200.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy200.png)
 
 
 
 ### 난수 초기화 
 랜덤 행렬 생성도 벡터 생성과 유사하다. 
 
-![](../../.gitbook/assets/numpy2/numpy201.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy201.png)
 
 
 
@@ -446,7 +445,7 @@ array([2.30519791, 7.88569516, 2.15921334, 4.47757127, 2.12956828,
 2차원 인덱싱 구문은 중첩 목록의 구문보다 더 편리하다. 
 
 
-![](../../.gitbook/assets/numpy2/numpy202.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy202.png)
 
 
 (3,4) 배열을 하나 만든다. 
@@ -490,7 +489,7 @@ axis 인수의 값은 사실상 해당 인덱스의 번호입니다.
 
 
 
-![](../../.gitbook/assets/numpy2/numpy203.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy203.png)
 
 
 
@@ -531,7 +530,7 @@ array([ 6, 15])
 요소별로 작동하는 일반 연산자(예: +,-,*,/,// 및 **) 외에도 행렬 곱을 계산하는 @ 연산자가 있다.
 
 
-![](../../.gitbook/assets/numpy2/numpy204.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy204.png)
 
 ```python 
 a = np.array( [ [1,2],[3,4]])
@@ -606,7 +605,7 @@ array([[ 1,  2],
 
 NumPy는 벡터와 행렬, 심지어 두 벡터 사이에서도 혼합 연산을 허용한다. 
 
-![](../../.gitbook/assets/numpy2/numpy205.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy205.png)
 
 ```python 
 a = np.array( [ [1,2,3], [4,5,6], [7,8,9]])
@@ -670,12 +669,12 @@ array([[1, 2, 3],
 Note that in the last example it is a symmetric per-element multiplication. To calculate the outer product using an asymmetric linear algebra matrix multiplication the order of the operands should be reversed:
 
 
-![](../../.gitbook/assets/numpy2/numpy206.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy206.png)
 
 
 ### Row vectors and column vectors
 
-![](../../.gitbook/assets/numpy2/numpy210.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy210.png)
 
 2D 배열에서 a[:,j]는  2차원 배열 a의 j번째 컬럼을 의미하고 이것은 1D 어래이이다. 
 
@@ -759,7 +758,7 @@ array([3, 4, 5, 6, 7, 8, 9])
 ```
 
 
-![](../../.gitbook/assets/numpy2/numpy211.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy211.png)
 
 
 ```python
@@ -803,13 +802,13 @@ array([[1, 2, 3],
 
 
 NumPy에는 1D 배열, 2D 행 벡터 및 2D 열 벡터의 총 세 가지 유형의 벡터가 있다. 다음은 이들 간의 명시적 변환 다이어그램이다. 
-![](../../.gitbook/assets/numpy2/numpy212.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy212.png)
 
 
 ### Matrix manipulations 
 배열을 합치는 두 가지 주요 함수들이 있다. 
 
-![](../../.gitbook/assets/numpy2/numpy213.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy213.png)
 
 
 ```python 
@@ -859,14 +858,14 @@ array([[ 1,  2,  3,  4],
        [ 5,  6,  7,  8]])
 ```
 
-![](../../.gitbook/assets/numpy2/numpy214.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy214.png)
 
 
 
 
 stacking과는 반대로 split는 분리한다. 
 
-![](../../.gitbook/assets/numpy2/numpy215.png)
+![](../../.gitbook/assets/pkg/numpy2/numpy215.png)
 
 
 y 배열은 다음과 같다. 
