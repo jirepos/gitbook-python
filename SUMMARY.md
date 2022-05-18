@@ -19,7 +19,8 @@
     * [Jep-자바 임베디드 Python](python/devops/jep-python.md)
     * [파이썬에서 한글](python/devops/python-encoding.md)
     * [Java에서 Python 사용하기](python/devops/java-python.md)
-    * [Google Colab](python/devops/google-colab.md)  
+    * [Google Colab](python/devops/google-colab.md) 
+    * [ Python for Excel and Google Sheets](python/devops/python-xlwings.md.md) 
 
 * [Python Package](pkg/README.md)
   * [Numpy](pkg/numpy/README.md) 
