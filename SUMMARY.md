@@ -37,6 +37,7 @@
     * [Rolling](pkg/pandas/pandas-04-rolling.md)
     * [DataFrame 조건에 맞는 데이터 추출](pkg/pandas/pandas-05.md)
     * [datetime 다루기](pkg/pandas/pandas-06-datetime.md)
+    * [비교](pkg/pandas/pandas-07-compare.md)
   * [Scipy](pkg/scipy/README.md)
     * [기본](pkg/scipy/scipy-01.md)
   * [Matplotlib](pkg/matplot/README.md)

@@ -97,3 +97,79 @@ r
 1	영국	200	런던
 ```
 
+## 주간 일감에 해당하는 데이터 구하기 
+```python 
+from datetime import datetime
+
+df = pd.DataFrame({
+    "one": [ datetime(2022,5,16), datetime(2022,5,2)  ],
+    "two": [ datetime(2022,5,18), datetime(2022,5,5)  ],
+})
+
+df
+```
+```
+one	two
+0	2022-05-16	2022-05-18
+1	2022-05-02	2022-05-05
+```
+
+```python
+# 같은 날짜의 행 반환 
+r = df[ df['one'] == datetime(2022,5,16) ]
+r
+```
+```
+one	two
+0	2022-05-16	2022-05-18
+```
+
+
+
+```python 
+r = df[ df['one'] >= datetime(2022,5,16) ]
+r
+```
+```
+one	two
+0	2022-05-16	2022-05-18
+```
+
+
+```
+r = df[ (df['one'] >= datetime(2022,5,16)) | (df['two'] <= datetime(2022,4,20))  ]
+r
+```
+```
+	one	two
+0	2022-05-16	2022-05-18
+```
+
+주간 일감  구하기 
+* 조건 
+  * 주간 시작일 5/16 
+  * 주간 종료일 5/20 
+* 로직 
+  * (일감시작일 >= 주간시작일 AND 시작일 <= 주간 종료일) 
+  * OR ( 일감종료일 >= 주간시작일 AND 일감종료일 <= 주간종료일) 
+  * OR ( 일감시작일 < 주간시작일 AND 일감종료일 > 주간종료일)
+
+
+```python
+st_dt_of_week = datetime(2022,5,16)  # 주간 시작일
+ed_dt_of_week = datetime(2022,5 ,20)  # 주간 종료일
+
+r = df [
+        (
+            (( df['one'] >= st_dt_of_week ) &  ( df['one']  <= ed_dt_of_week )) 
+          | (( df['two'] >= st_dt_of_week ) &  ( df['two']  <= ed_dt_of_week )) 
+          | (( df['one'] < st_dt_of_week ) &  ( df['two']  >  ed_dt_of_week )) 
+        )
+]
+
+r
+```
+```
+	one	two
+0	2022-05-16	2022-05-18
+```

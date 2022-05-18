@@ -213,6 +213,38 @@ datetime.datetime(2020, 7, 18, 0, 0)
 ```
 포맷은 [파이썬 공식 홈페이지](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes)를 참고하세요.
 
+
+## 날짜 처리
+
+### 날짜 비교
+datetime.date()를 사용하여 두 날짜를 비교할 수도 있습니다. datetime.date()메소드는year, month, day을 입력으로 사용합니다. 비교할 두 날짜를 만들고 간단한 비교 연산자를 사용하여 두 날짜를 비교합니다.
+```python 
+first_date = date(2020, 12, 16)
+second_date = date(2015, 12, 16)
+
+result = first_date < second_date
+print(result)
+```
+```
+False
+```
+datetime 모듈은 세 개의 매개 변수를 사용하여 연, 월, 일의 날짜를 만드는datetime()메서드를 제공합니다. 날짜를 가져온 후 비교 연산자를 사용하여 비교할 수 있습니다.
+```python 
+# date in yy/mm/dd format
+first_date = datetime(2020, 5, 11)
+second_date = datetime(2020, 6, 10)
+
+print("first date is greater than second_date: ", first_date > second_date)
+print("first date is smaller than second_date: ", first_date < second_date)
+print("first date is not equal to second_date: ", first_date != second_date)
+```
+```
+first date is greater than second_date:  False
+first date is smaller than second_date:  True
+first date is not equal to second_date:  True
+```
+
+
 ## References
 [Pandas 날짜 함수](https://truman.tistory.com/97)        
 [Python datetime](https://www.daleseo.com/python-datetime/)      
