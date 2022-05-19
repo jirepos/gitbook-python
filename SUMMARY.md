@@ -42,6 +42,7 @@
     * [비교](pkg/pandas/pandas-07-compare.md)
     * [Boolean Indexing](pkg/pandas/pandas-08-boolean-indexing.md)
     * [Groupby](pkg/pandas/pandas-09-groupby.md)
+    * [where와 mask](pkg/pandas/pandas-10-where-mask.md)
   * [Scipy](pkg/scipy/README.md)
     * [기본](pkg/scipy/scipy-01.md)
   * [Matplotlib](pkg/matplot/README.md)
