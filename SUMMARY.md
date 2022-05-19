@@ -40,6 +40,8 @@
     * [DataFrame 조건에 맞는 데이터 추출](pkg/pandas/pandas-05.md)
     * [datetime 다루기](pkg/pandas/pandas-06-datetime.md)
     * [비교](pkg/pandas/pandas-07-compare.md)
+    * [Boolean Indexing](pkg/pandas/pandas-08-boolean-indexing.md)
+    * [Groupby](pkg/pandas/pandas-09-groupby.md)
   * [Scipy](pkg/scipy/README.md)
     * [기본](pkg/scipy/scipy-01.md)
   * [Matplotlib](pkg/matplot/README.md)
