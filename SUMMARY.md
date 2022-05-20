@@ -45,6 +45,7 @@
     * [where와 mask](pkg/pandas/pandas-10-where-mask.md)
     * [index 다루기](pkg/pandas/pandas-11-index.md)
     * [column 다루기](pkg/pandas/pandas-12-column.md)
+    * [column 추가,삭제](pkg/pandas/pandas-13-column-add.md)
   * [Scipy](pkg/scipy/README.md)
     * [기본](pkg/scipy/scipy-01.md)
   * [Matplotlib](pkg/matplot/README.md)
