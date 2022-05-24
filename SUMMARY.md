@@ -21,7 +21,7 @@
     * [파이썬에서 한글](python/devops/python-encoding.md)
     * [Java에서 Python 사용하기](python/devops/java-python.md)
     * [Google Colab](python/devops/google-colab.md) 
-    * [Python for Excel and Google Sheets](python/devops/python-xlwings-01.md) 
+    
 
 * [Python Package](pkg/README.md)
   * [Numpy](pkg/numpy/README.md) 
@@ -57,7 +57,8 @@
   * [Sklearn](pkg/sklearn/README.md)
     * [사이킷런 데이터 셋](pkg/sklearn/sklearn-00.md)
     * [학습과 테스트 셋트 분리](pkg/sklearn/sklearn-01-split.md)  
-
+  * [xlwings](pkg/xlwings/README.md)
+    * [Python for Excel and Google Sheets](pkg/xlwings/xlwings-01.md) 
 
 
 * [데이터분석](da/README.md)    
