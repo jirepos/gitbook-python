@@ -8,6 +8,7 @@
     * [리스트](python/basic/py-basic-02-03-list.md)
     * [날짜와 시간다루기](python/basic/py-basic-10-datetime.md)
     * [람다,맵,리듀스,필터](python/basic/py-basic-11-lambda-and.md)
+    * [중첩함수와 데코레이터](python/basic/py-basic-12-nested-func-deco.md)
   * [DevOps](python/devops/README.md)
     * [Exe 파일 만들기](devops/make-python-exe.md)
     * [pip를 이용하여 github에서 패키지 설치하기](python/devops/pip-github.md)
@@ -59,6 +60,7 @@
     * [학습과 테스트 셋트 분리](pkg/sklearn/sklearn-01-split.md)  
   * [xlwings](pkg/xlwings/README.md)
     * [Python for Excel and Google Sheets](pkg/xlwings/xlwings-01.md) 
+    * [정리중](pkg/xlwings/xlwings-02.md) 
 
 
 * [데이터분석](da/README.md)    
