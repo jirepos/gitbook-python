@@ -60,7 +60,7 @@
     * [학습과 테스트 셋트 분리](pkg/sklearn/sklearn-01-split.md)  
   * [xlwings](pkg/xlwings/README.md)
     * [Python for Excel and Google Sheets](pkg/xlwings/xlwings-01.md) 
-    * [정리중](pkg/xlwings/xlwings-02.md) 
+    * [xlwings 기본사용법](pkg/xlwings/xlwings-02.md) 
 
 
 * [데이터분석](da/README.md)    
