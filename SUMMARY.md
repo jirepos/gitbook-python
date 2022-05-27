@@ -22,6 +22,8 @@
     * [파이썬에서 한글](python/devops/python-encoding.md)
     * [Java에서 Python 사용하기](python/devops/java-python.md)
     * [Google Colab](python/devops/google-colab.md) 
+    * [Poeytry](python/devops/poeytry.md) 
+    * [파이썬 개발환경 with PyEnv](python/devops/python-pyenv.md) 
     
 
 * [Python Package](pkg/README.md)
@@ -61,6 +63,7 @@
   * [xlwings](pkg/xlwings/README.md)
     * [Python for Excel and Google Sheets](pkg/xlwings/xlwings-01.md) 
     * [xlwings 기본사용법](pkg/xlwings/xlwings-02.md) 
+  * [FastAPI](pkg/fastapi/README.md)    
 
 
 * [데이터분석](da/README.md)    
