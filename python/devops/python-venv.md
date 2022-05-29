@@ -1,14 +1,16 @@
 # 파이썬 개발환경 with PyEnv 
 
+Pyenv와 virtualenv를 사용하려고 했으나 지금은 많이 사용하지 않고 windows에서 설정을 하기가 너무 어렵다.  Python 3.9.4 부터 가상환경을 지원해서 python이 제공하는 가상환경을 사용하기로 한다. 
+
+
+
+
 
 Choco를 설치한다. 관리자권한으로 터미널을 실행해야 한다. 
 다음을 실행한다.  자세한 내용은 [Setup/Install](https://docs.chocolatey.org/en-us/choco/setup#install-with-cmd.exe)을 참고한다. 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
-
-
-
 
 
 Anaconda는 지운다. 

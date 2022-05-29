@@ -23,7 +23,7 @@
     * [Java에서 Python 사용하기](python/devops/java-python.md)
     * [Google Colab](python/devops/google-colab.md) 
     * [Poeytry](python/devops/poeytry.md) 
-    * [파이썬 개발환경 with PyEnv](python/devops/python-pyenv.md) 
+    * [파이썬 가상환경](python/devops/python-venv.md) 
     
 
 * [Python Package](pkg/README.md)
