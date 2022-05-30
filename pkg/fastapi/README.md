@@ -35,5 +35,6 @@ f = open(os.path.join("data/", "readme.txt"),  "r", encoding='utf-8')
 [Templates](https://fastapi.tiangolo.com/advanced/templates/)          
 [Static Files](https://fastapi.tiangolo.com/tutorial/static-files/)     
 [Requset](https://www.starlette.io/requests/)     
+[Seperate Files](https://www.tutorialsbuddy.com/python-fastapi-bigger-applications-multiple-separate-files)     
 
 
