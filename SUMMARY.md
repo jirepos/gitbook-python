@@ -1,14 +1,6 @@
 # Table of contents
 
-* [Python](python/README.md)
-  * [Python Basic](python/basic/README.md)
-    * [시작하기](python/basic/py-basic-01-01-start.md)
-    * [숫자형](python/basic/py-basic-02-01-number.md)
-    * [문자열](python/basic/py-basic-02-02-string.md)
-    * [리스트](python/basic/py-basic-02-03-list.md)
-    * [날짜와 시간다루기](python/basic/py-basic-10-datetime.md)
-    * [람다,맵,리듀스,필터](python/basic/py-basic-11-lambda-and.md)
-    * [중첩함수와 데코레이터](python/basic/py-basic-12-nested-func-deco.md)
+* [Python](README.md)
   * [DevOps](python/devops/README.md)
     * [Exe 파일 만들기](devops/make-python-exe.md)
     * [pip를 이용하여 github에서 패키지 설치하기](python/devops/pip-github.md)
@@ -49,6 +41,7 @@
     * [index 다루기](pkg/pandas/pandas-11-index.md)
     * [column 다루기](pkg/pandas/pandas-12-column.md)
     * [column 추가,삭제](pkg/pandas/pandas-13-column-add.md)
+    * [사용자 함수](pkg/pandas/pandas-15-apply.md)
   * [Scipy](pkg/scipy/README.md)
     * [기본](pkg/scipy/scipy-01.md)
   * [Matplotlib](pkg/matplot/README.md)
@@ -105,3 +98,7 @@
 
 * [Machine Learning](ml/README.md)  
   * [Machine Learning 용어](ml/ml-01-glossary.md)  
+
+
+* [Python 응용](apps/README.md)    
+  * [근무시간 계산](apps/apps-01-work_hours.md)
